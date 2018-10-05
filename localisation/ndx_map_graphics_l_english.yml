@@ -1,0 +1,243 @@
+﻿l_english: 
+ ##############################################
+ # Graphical Cultures
+ ##############################################
+
+ # Mixes will use the unit definitions last loaded. Disable specific packs to avoid them appearing
+ # These work by loading whatever the previous asset files set, i.e. the DLC definitions. 
+ # So, by disable DLC, the loaded unit will just be pushed back to the older definition
+ # If no DLC is available, they will load the vanilla definition
+ 
+ japanesegfx: "Japanese"
+ manchugfx: "Manchu"
+ minggfx: "Ming"
+ ayutthayagfx: "Ayutthaya"
+ mix_korea_gfx: "Korea"
+ mix_qing_gfx: "Qing"
+ 
+ mix_date_gfx: "Date"
+ mix_hosokawa_gfx: "Hosokawa"
+ mix_hatakeyama_gfx: "Hatakeyama"
+ mix_imagawa_gfx: "Imagawa"
+ mix_otomo_gfx: "Otomo"
+ mix_ouchi_gfx: "Ouchi"
+ mix_shiba_gfz: "Shiba"
+ mix_shimazu_gfx: "Shimazu"
+ mix_takeda_gfx: "Takeda"
+ mix_uesugi_gfx: "Uesugi"
+ mix_nanbu_gfx: "Nanbu"
+ mix_yamana_gfx: "Yamana"
+
+ mix_mongol_gfx: "Mongol"
+ mix_oirat_gfx: "Oirat"
+ mix_chagatai_gfx: "Chagatai"
+ 
+ mix_ryazan_gfx: "Ryazan"
+ mix_yaroslavl_gfx: "Yaroslavl"
+ mix_odoyev_gfx: "Odoyev"
+ mix_tver_gfx: "Tver"
+ mix_kazan_gfx: "Kazan"
+ mix_perm_gfx: "Perm"
+ mix_lithuania_gfx: "Lithuania"
+ mix_pskov_gfx: "Pskov"
+ mix_polotsk_gfx: "Polotsk"
+ mix_smolensk_gfx: "Smolensk"
+ mix_ruthenia_gfx: "Ruthenia"
+ mix_nizhny_novgorod_gfx: "Nizhny Novgorod"
+
+ # Majors
+ mix_france_gfx: "France"
+ mix_spain_gfx: "Spain"
+ mix_england_gfx: "England"
+ mix_russia_gfx: "Russia"
+ mix_poland_gfx: "Poland" # POL
+ mix_austria_gfx: "Austria" # HAB
+ mix_sweden_gfx: "Sweden" # SWE
+ mix_denmark_gfx: "Denmark" # DAN
+ mix_prussia_gfx: "Prussia" # PRU
+ mix_brandenburg_gfx: "Brandenburg" # BRA
+ mix_netherlands_gfx: "Netherlands" # NED
+ mix_portugal_gfx: "Portugal" # POR
+ mix_ottomans_gfx: "Ottomans" # TUR
+ 
+ # 100 Years
+ mix_scotland_gfx: "Scotland" # SCO
+ mix_burgundy_gfx: "Burgundy" # BUR
+ mix_provence_gfx: "Provence" # PRO
+ mix_brittany_gfx: "Brittany" # BRI
+ mix_orleans_gfx: "Orleans" # ORL
+ mix_armagnac_gfx: "Armagnac" # AMG
+ mix_auvergne_gfx: "Auvergne" # AUV
+ mix_foix_gfx: "Foix" # FOI
+ mix_bourbonnais_gfx: "Bourbonnais" # BOU
+ 
+ # Black Sea
+ mix_zaporozhie_gfx: "Zaporozhie" # ZAZ
+ mix_crimea_gfx: "Crimea" # CRI
+ mix_circassia_gfx: "Circassia" # CIR
+ mix_theodoro_gfx: "Theodoro" # FEO
+ 
+ # Buddhists
+ mix_tibet_gfx: "Tibet" # TIB
+ mix_vietnam_gfx: "Dai Viet" # DAI
+ mix_lanxang_gfx: "Lan Xang" # LXA
+ mix_ceylon_gfx: "Ceylon" # CEY
+ 
+ # Catholic League
+ mix_bavaria_gfx: "Bavaria" # BAV
+ mix_mainz_gfx: "Mainz" # MAI
+ mix_salzburg_gfx: "Salzburg" # SLZ
+ mix_wurzburg_gfx: "Wurzburg" # WBG
+ mix_trier_gfx: "Trier" # TRI
+ mix_augsburg_gfx: "Augsburg" # AUG
+ mix_papal_gfx: "Papal States" # PAP
+ mix_cologne_gfx: "Cologne" # KOL
+ mix_ulm_gfx: "Ulm" # ULM
+ 
+ # Colonial
+ mix_colonial_england_gfx: "Colonial England" # north_america_ENG
+ mix_colonial_france_gfx: "Colonial France" # north_america_FRA
+ mix_colonial_spain_gfx: "Colonial Spain" # north_america_SPA
+ mix_colonial_portugal_gfx: "Colonial Portugal" # north_america_POR
+ 
+ # East African
+ mix_ethiopia_gfx: "Ethiopia" # ETH
+ mix_nubian_gfx: "Nubian" # NUB
+ mix_somalia_gfx: "Somalia" # MDI
+ mix_swahili_gfx: "Swahili" # ZAN
+ 
+ # Evangelical Union
+ mix_hesse_gfx: "Hesse" # HES
+ mix_saxony_gfx: "Saxony" # SAX
+ mix_wurttemberg_gfx: "Wurttemberg" # WUR
+ mix_pomerania_gfx: "Pomerania" # POM
+ mix_palantinate_gfx: "Palantinate" # PAL
+ mix_bohemia_gfx: "Bohemia" # BOH
+ 
+ # Free Cities
+ mix_hamburg_gfx: "Hamburg" # HAM
+ mix_nuremburg_gfx: "Nuremberg" # NUM
+ mix_frankfurt_gfx: "Frankfurt" # FRN
+ 
+ # German Princes
+ mix_hannover_gfx: "Hannover" # HAN
+ 
+ # Great Hordes
+ mix_timurids_gfx: "Timurids" # TIM
+ mix_golden_horde_gfx: "Golden Horde" # GOL
+ mix_nogai_gfx: "Nogai" # NOG
+ mix_uzbek_gfx: "Uzbek" # SHY
+ 
+ # Indian Subcontinent
+ mix_vijayanagar_gfx: "Vijayanagar" # VIJ
+ mix_bengal_gfx: "Bengal" # BNG
+ mix_orissa_gfx: "Orissa" # ORI
+ mix_mughals_gfx: "Mughals" # MUG
+ 
+ # Italian
+ mix_florence_gfx: "Florence" # LAN
+ mix_milan_gfx: "Milan" # MLO
+ mix_naples_gfx: "Naples" # NAP
+ mix_venice_gfx: "Venice" # VEN
+ 
+ # Mesoamerican
+ mix_aztec_gfx: "Aztec" # AZT
+ mix_maya_gfx: "Maya" # MAY
+ mix_zapotec_gfx: "Zapotec" # ZAP
+
+ # North African
+ mix_mamluks_gfx: "Mamluks" # MAM
+ mix_algiers_gfx: "Algiers" # ALG
+ mix_tunis_gfx: "Tunis" # TUN
+ mix_morroco_gfx: "Morocco" # MOR
+ 
+ # South American
+ mix_inca_gfx: "Inca" # INC
+ mix_mapuche_gfx: "Mapuche" # MPC
+ mix_tupi_gfx: "Tupi" # TPA
+ 
+ # Theocracies
+ mix_livonia_gfx: "Livonia" # LIV
+ mix_teutonic_gfx: "Teutonic" # TEU
+ mix_knights_gfx: "Knights" # KNI
+ 
+ # Trade Nations
+ mix_aragon_gfx: "Aragon" # ARA
+ mix_novgorod_gfx: "Novogord" # NOV
+ mix_hansa_gfx: "Hansa" # HSA
+ mix_genoa_gfx: "Genoa" # GEN
+ 
+ # West African
+ mix_kanem_bornu_gfx: "Kanem Bornu" # KBO
+ mix_mali_gfx: "Mali" # MAL
+ mix_songhai_gfx: "Songhai" # SON
+ mix_benin_gfx: "Benin" # BEN
+ mix_air_gfx: "Air" # AIR
+ mix_hausa_gfx: "Hausa" # HAU
+ mix_timbuktu_gfx: "Timbuktu" # TMB
+
+ # Natives
+ mix_chickasaw_gfx: "Chickasaw" # CHI
+ mix_mahican_gfx: "Mahican" # MAH
+ mix_mikmaq_gfx: "Mikmaq" # MIK
+ mix_potawatomi_gfx: "Potawatomi" # POT
+ mix_shoshone_gfx: "Shoshone" # SHO
+ mix_ojibwe_gfx: "Ojibwe" # OJI
+ mix_navajo_gfx: "Navajo" # NAH
+ mix_fox_gfx: "Fox" # FOX
+ mix_assiniboine_gfx: "Assiniboine" # ASI
+ mix_miami_gfx: "Miami" # MMI
+ 
+ mix_apache_gfx: "Apache" # APA
+ mix_comanche_gfx: "Comanche" # COM
+ mix_shawnee_gfx: "Shawnee" # SHA
+ mix_cherokee_gfx: "Cherokee" # CHE
+ mix_cree_gfx: "Cree" # CRE
+ mix_huron_gfx: "Huron" # HUR
+ mix_iroquois_gfx: "Iroquois" # IRO
+ mix_sioux_gfx: "Sioux" # SIO
+ 
+ mix_byzantium_gfx: "Byzantium" # BYZ
+ 
+ mix_haasa_gfx: "Haasa" # ALH 
+ mix_aq_qoyonlu_gfx: "Aq Qoyonlu" # AKK
+ mix_shammar_gfx: "Shammar" # SHM
+ mix_qara_qoyonlu_gfx: "Qara Qoyonlu" # QAR
+
+ mix_afghanistan_gfx: "Afghanistan" # AFG
+ mix_kurdish_gfx: "Kurdish" # HSN 
+ mix_persia_gfx: "Persia" # PER
+ mix_tabarestan_gfx: "Tabarestan" # TAB
+
+ mix_aden_gfx: "Aden" # ADE
+ mix_hedjaz_gfx: "Hedjaz" # HED ###
+ mix_najd_gfx: "Najd" # NAJ
+ mix_oman_gfx: "Oman" # OMA
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

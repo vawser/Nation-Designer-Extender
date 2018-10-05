@@ -1,0 +1,74 @@
+country_decisions = {
+    
+	go_protestant = {
+		major = yes
+		potential = {
+			ai = no
+            religion_group = christian
+            NOT = { has_country_flag = switched_religion }
+            is_playing_custom_nation = yes
+		}
+		allow = {
+			NOT = { is_year = 1445 }
+            NOT = { religion = protestant }
+		}
+		effect = {
+            change_religion = protestant
+            every_owned_province = {
+                change_religion = protestant
+            }
+            set_country_flag = switched_religion
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+    
+    go_reformed = {
+		major = yes
+		potential = {
+			ai = no
+            religion_group = christian
+            NOT = { has_country_flag = switched_religion }
+            is_playing_custom_nation = yes
+		}
+		allow = {
+			NOT = { is_year = 1445 }
+            NOT = { religion = reformed }
+		}
+		effect = {
+            change_religion = reformed
+            every_owned_province = {
+                change_religion = reformed
+            }
+            set_country_flag = switched_religion
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+    
+    go_sikhism = {
+		major = yes
+		potential = {
+			ai = no
+            religion_group = dharmic
+            NOT = { has_country_flag = switched_religion }
+            is_playing_custom_nation = yes
+		}
+		allow = {
+			NOT = { is_year = 1445 }
+            NOT = { religion = sikhism }
+		}
+		effect = {
+            change_religion = sikhism
+            every_owned_province = {
+                change_religion = sikhism
+            }
+            set_country_flag = switched_religion
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

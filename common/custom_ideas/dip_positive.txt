@@ -1,0 +1,1181 @@
+dip_idea_modifiers = {
+	category = DIP
+
+	custom_idea_culture_conversion_cost = {
+		culture_conversion_cost = -0.05
+	}
+	custom_idea_naval_morale = {
+		naval_morale = 0.05
+		default = 4
+        
+		# Used for random generation
+		chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { any_owned_province = { has_port = yes } }
+			}
+			
+			modifier = {
+				factor = 0
+				
+				primitives = yes
+			}
+		}		
+	}	
+	custom_idea_trade_efficiency = {
+		trade_efficiency = 0.05
+		default = 7
+	}
+	custom_idea_global_trade_power = {
+		global_trade_power = 0.05
+		default = 9
+	}		
+	custom_idea_global_prov_trade_power_modifier = {
+		global_prov_trade_power_modifier = 0.05
+	}	
+	custom_idea_trade_steering = {
+		trade_steering = 0.05
+	}	
+	custom_idea_global_tariffs = {
+		global_tariffs = 0.05
+	}	
+	custom_idea_diplomatic_reputation = {
+		diplomatic_reputation = 0.5
+	}	
+	custom_idea_diplomatic_upkeep = {
+		diplomatic_upkeep = 1
+	}	
+	custom_idea_merchants = {
+		merchants = 1
+		level_cost_1 = 25
+		level_cost_2 = 50
+		level_cost_3 = 75
+		level_cost_4 = 100	
+		level_cost_5 = 125	
+        max_level = 5
+	}
+	custom_idea_colonists = {
+		colonists = 1
+		level_cost_1 = 25
+		level_cost_2 = 50
+		level_cost_3 = 75
+		level_cost_4 = 100	
+		level_cost_5 = 125	
+        max_level = 5
+        
+		# Used for random generation
+		chance = {
+			factor = 0.1
+			modifier = {
+				factor = 0
+				NOT = { any_owned_province = { has_port = yes } }
+			}
+		}			
+	}
+	custom_idea_diplomats = {
+		diplomats = 1
+		level_cost_1 = 25
+		level_cost_2 = 50
+		level_cost_3 = 75
+		level_cost_4 = 100	
+		level_cost_5 = 125	
+        max_level = 5
+	}	
+	custom_idea_naval_maintenance_modifier = {
+		naval_maintenance_modifier = -0.05
+		
+		# Used for random generation
+		chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { any_owned_province = { has_port = yes } }
+			}
+			
+			modifier = {
+				factor = 0
+				
+				primitives = yes
+			}
+		}		
+	}	
+	custom_idea_naval_forcelimit_modifier = {
+		naval_forcelimit_modifier = 0.1
+		
+		# Used for random generation
+		chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { any_owned_province = { has_port = yes } }
+			}
+			
+			modifier = {
+				factor = 0
+				
+				primitives = yes
+			}
+		}			
+	}	
+	custom_idea_ship_durability = {
+		ship_durability = 0.05
+		
+		# Used for random generation
+		chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { any_owned_province = { has_port = yes } }
+			}
+			
+			modifier = {
+				factor = 0
+				
+				primitives = yes
+			}
+		}			
+	}	
+	custom_idea_war_exhaustion = {
+		war_exhaustion = -0.05
+	}		
+	custom_idea_war_exhaustion_cost = {
+		war_exhaustion_cost = -0.05
+        level_cost_2 = 3
+        level_cost_3 = 9
+        level_cost_4 = 18
+        level_cost_5 = 27
+        level_cost_6 = 36
+        level_cost_7 = 45
+        level_cost_8 = 54
+        level_cost_9 = 63
+        level_cost_10 = 72
+	}	
+	custom_idea_navy_tradition = {
+		navy_tradition = 0.5
+		
+		# Used for random generation
+		chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { any_owned_province = { has_port = yes } }
+			}
+			
+			modifier = {
+				factor = 0
+				
+				primitives = yes
+			}
+		}
+	}	
+	custom_idea_navy_tradition_decay = {
+		navy_tradition_decay = -0.01
+		
+		# Used for random generation
+		chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { any_owned_province = { has_port = yes } }
+			}
+			
+			modifier = {
+				factor = 0
+				
+				primitives = yes
+			}
+		}
+	}	
+	custom_idea_leader_naval_fire = {
+		leader_naval_fire = 1
+		level_cost_1 = 25
+		level_cost_2 = 50
+		level_cost_3 = 75
+		level_cost_4 = 100	
+		level_cost_5 = 125	
+		level_cost_6 = 150
+        max_level = 6
+
+		# Used for random generation
+		chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { any_owned_province = { has_port = yes } }
+			}
+			
+			modifier = {
+				factor = 0
+				
+				primitives = yes
+			}
+		}			
+	}	
+	custom_idea_leader_naval_shock = {
+		leader_naval_shock = 1
+		level_cost_1 = 25
+		level_cost_2 = 50
+		level_cost_3 = 75
+		level_cost_4 = 100	
+		level_cost_5 = 125	
+		level_cost_6 = 150
+        max_level = 6
+		
+		# Used for random generation
+		chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { any_owned_province = { has_port = yes } }
+			}
+			
+			modifier = {
+				factor = 0
+				
+				primitives = yes
+			}
+		}	
+	}
+	custom_idea_leader_naval_maneuver = {
+		leader_naval_manuever = 1
+		level_cost_1 = 25
+		level_cost_2 = 50
+		level_cost_3 = 75
+		level_cost_4 = 100	
+		level_cost_5 = 125	
+		level_cost_6 = 150
+        max_level = 6
+		
+		# Used for random generation
+		chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { any_owned_province = { has_port = yes } }
+			}
+			
+			modifier = {
+				factor = 0
+				
+				primitives = yes
+			}
+		}			
+	}		
+	custom_idea_spy_offence = {
+		spy_offence = 0.1
+        level_cost_2 = 3
+        level_cost_3 = 9
+        level_cost_4 = 18
+        level_cost_5 = 27
+        level_cost_6 = 36
+        level_cost_7 = 45
+        level_cost_8 = 54
+        level_cost_9 = 63
+        level_cost_10 = 72
+	}		
+	custom_idea_spy_defense = {
+		global_spy_defence = 0.1
+        level_cost_2 = 3
+        level_cost_3 = 9
+        level_cost_4 = 18
+        level_cost_5 = 27
+        level_cost_6 = 36
+        level_cost_7 = 45
+        level_cost_8 = 54
+        level_cost_9 = 63
+        level_cost_10 = 72
+	}	
+	custom_idea_ship_recruit_speed = {
+		global_ship_recruit_speed = -0.05
+		level_cost_2 = 3
+        level_cost_3 = 9
+        level_cost_4 = 18
+        level_cost_5 = 27
+        level_cost_6 = 36
+        level_cost_7 = 45
+        level_cost_8 = 54
+        level_cost_9 = 63
+        level_cost_10 = 72
+		
+		# Used for random generation
+		chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { any_owned_province = { has_port = yes } }
+			}
+			
+			modifier = {
+				factor = 0
+				
+				primitives = yes
+			}
+		}			
+	}	
+	custom_idea_blockade_efficiency = {
+		blockade_efficiency = 0.1
+        level_cost_2 = 3
+        level_cost_3 = 9
+        level_cost_4 = 18
+        level_cost_5 = 27
+        level_cost_6 = 36
+        level_cost_7 = 45
+        level_cost_8 = 54
+        level_cost_9 = 63
+        level_cost_10 = 72
+		
+		# Used for random generation
+		chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { any_owned_province = { has_port = yes } }
+			}
+			
+			modifier = {
+				factor = 0
+				
+				primitives = yes
+			}
+		}			
+	}	
+	custom_idea_embargo_efficiency = {
+		embargo_efficiency = 0.1
+        level_cost_2 = 3
+        level_cost_3 = 9
+        level_cost_4 = 18
+        level_cost_5 = 27
+        level_cost_6 = 36
+        level_cost_7 = 45
+        level_cost_8 = 54
+        level_cost_9 = 63
+        level_cost_10 = 72
+	}	
+	custom_idea_prestige_from_naval = {
+		prestige_from_naval = 0.1
+		level_cost_2 = 3
+        level_cost_3 = 9
+        level_cost_4 = 18
+        level_cost_5 = 27
+        level_cost_6 = 36
+        level_cost_7 = 45
+        level_cost_8 = 54
+        level_cost_9 = 63
+        level_cost_10 = 72
+		
+		# Used for random generation
+		chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { any_owned_province = { has_port = yes } }
+			}
+			
+			modifier = {
+				factor = 0
+				
+				primitives = yes
+			}
+		}			
+	}	
+	custom_idea_range = {
+		range = 0.1
+		
+		# Used for random generation
+		chance = {
+			factor = 0.1
+			modifier = {
+				factor = 0
+				NOT = { any_owned_province = { has_port = yes } }
+			}
+		}			
+	}	
+	custom_idea_global_colonial_growth = {
+		global_colonial_growth = 5
+		
+		# Used for random generation
+		chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { any_owned_province = { has_port = yes } }
+			}
+		}	
+	}	
+	custom_idea_ae_impact = {
+		ae_impact = -0.05
+	}	
+	custom_idea_privateer_efficiency = {
+		privateer_efficiency = 0.1
+        
+        level_cost_2 = 3
+        level_cost_3 = 9
+        level_cost_4 = 18
+        level_cost_5 = 27
+        level_cost_6 = 36
+        level_cost_7 = 45
+        level_cost_8 = 54
+        level_cost_9 = 63
+        level_cost_10 = 72
+		
+		# Used for random generation
+		chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { any_owned_province = { has_port = yes } }
+			}
+			
+			modifier = {
+				factor = 0
+				
+				primitives = yes
+			}
+		}
+	}	
+	custom_idea_diplomatic_annexation_cost = {
+		diplomatic_annexation_cost = -0.05
+	}		
+	custom_idea_heavy_ship_cost = {
+		heavy_ship_cost = -0.05
+        level_cost_2 = 3
+        level_cost_3 = 9
+        level_cost_4 = 18
+        level_cost_5 = 27
+        level_cost_6 = 36
+        level_cost_7 = 45
+        level_cost_8 = 54
+        level_cost_9 = 63
+        level_cost_10 = 72
+		
+		# Used for random generation
+		chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { any_owned_province = { has_port = yes } }
+			}
+			
+			modifier = {
+				factor = 0
+				
+				primitives = yes
+			}
+		}
+	}	
+	custom_idea_light_ship_cost = {
+		light_ship_cost = -0.05
+        level_cost_2 = 3
+        level_cost_3 = 9
+        level_cost_4 = 18
+        level_cost_5 = 27
+        level_cost_6 = 36
+        level_cost_7 = 45
+        level_cost_8 = 54
+        level_cost_9 = 63
+        level_cost_10 = 72
+		
+		# Used for random generation
+		chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { any_owned_province = { has_port = yes } }
+			}
+			
+			modifier = {
+				factor = 0
+				
+				primitives = yes
+			}
+		}			
+	}	
+	custom_idea_galley_cost = {
+		galley_cost = -0.05
+        level_cost_2 = 3
+        level_cost_3 = 9
+        level_cost_4 = 18
+        level_cost_5 = 27
+        level_cost_6 = 36
+        level_cost_7 = 45
+        level_cost_8 = 54
+        level_cost_9 = 63
+        level_cost_10 = 72
+		
+		# Used for random generation
+		chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { any_owned_province = { has_port = yes } }
+			}
+			
+			modifier = {
+				factor = 0
+				
+				primitives = yes
+			}
+		}			
+	}	
+	custom_idea_transport_cost = {
+		transport_cost = -0.05
+        level_cost_2 = 3
+        level_cost_3 = 9
+        level_cost_4 = 18
+        level_cost_5 = 27
+        level_cost_6 = 36
+        level_cost_7 = 45
+        level_cost_8 = 54
+        level_cost_9 = 63
+        level_cost_10 = 72
+		
+		# Used for random generation
+		chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { any_owned_province = { has_port = yes } }
+			}
+			
+			modifier = {
+				factor = 0
+				
+				primitives = yes
+			}
+		}			
+	}
+	custom_idea_heavy_ship_power = {
+		heavy_ship_power = 0.05
+		
+		# Used for random generation
+		chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { any_owned_province = { has_port = yes } }
+			}
+			
+			modifier = {
+				factor = 0
+				
+				primitives = yes
+			}
+		}	
+	}	
+	custom_idea_light_ship_power = {
+		light_ship_power = 0.05
+        level_cost_2 = 3
+        level_cost_3 = 9
+        level_cost_4 = 18
+        level_cost_5 = 27
+        level_cost_6 = 36
+        level_cost_7 = 45
+        level_cost_8 = 54
+        level_cost_9 = 63
+        level_cost_10 = 72
+		
+		# Used for random generation
+		chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { any_owned_province = { has_port = yes } }
+			}
+			
+			modifier = {
+				factor = 0
+				
+				primitives = yes
+			}
+		}			
+	}
+	custom_idea_galley_power = {
+		galley_power = 0.05
+		
+		# Used for random generation
+		chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { any_owned_province = { has_port = yes } }
+			}
+			
+			modifier = {
+				factor = 0
+				
+				primitives = yes
+			}
+		}			
+	}
+    
+    custom_idea_transport_power = {
+        transport_power = 0.05
+        level_cost_2 = 3
+        level_cost_3 = 9
+        level_cost_4 = 18
+        level_cost_5 = 27
+        level_cost_6 = 36
+        level_cost_7 = 45
+        level_cost_8 = 54
+        level_cost_9 = 63
+        level_cost_10 = 72
+    }
+    
+    custom_idea_siberian_frontier = {
+        may_establish_frontier = yes
+		max_level = 1
+		level_cost_1 = 200
+		chance = {
+			factor = 0
+		}
+		enabled = {
+			has_dlc = "Third Rome"
+		}
+    }
+    
+    custom_idea_sailor_maintenance_modifer = {
+        sailor_maintenance_modifer = -0.05
+    }
+    
+    custom_idea_naval_forcelimit = {
+        naval_forcelimit = 2
+        level_cost_2 = 3
+        level_cost_3 = 9
+        level_cost_4 = 18
+        level_cost_5 = 27
+        level_cost_6 = 36
+        level_cost_7 = 45
+        level_cost_8 = 54
+        level_cost_9 = 63
+        level_cost_10 = 72
+
+        chance = {
+            factor = 1
+
+            modifier = {
+                factor = 0
+
+                primitives = yes
+            }
+            
+            modifier = {
+				factor = 0
+				NOT = { any_owned_province = { has_port = yes } }
+			}
+        }
+    }
+    
+    custom_idea_colonist_placement_chance = {
+        colonist_placement_chance = 0.01
+    }
+
+    custom_idea_native_assimilation = {
+        native_assimilation = 0.1
+    }
+
+    custom_idea_claim_duration = {
+        claim_duration = 0.1
+        level_cost_2 = 3
+        level_cost_3 = 9
+        level_cost_4 = 18
+        level_cost_5 = 27
+        level_cost_6 = 36
+        level_cost_7 = 45
+        level_cost_8 = 54
+        level_cost_9 = 63
+        level_cost_10 = 72
+    }
+
+    custom_idea_improve_relation_modifier = {
+        improve_relation_modifier = 0.05
+    }
+
+    custom_idea_rival_change_cost = {
+        rival_change_cost = -0.1
+        level_cost_2 = 3
+        level_cost_3 = 9
+        level_cost_4 = 18
+        level_cost_5 = 27
+        level_cost_6 = 36
+        level_cost_7 = 45
+        level_cost_8 = 54
+        level_cost_9 = 63
+        level_cost_10 = 72
+    }
+
+    custom_idea_capture_ship_chance = {
+        capture_ship_chance = 0.05
+
+        chance = {
+            factor = 1
+
+            modifier = {
+                factor = 0
+
+                primitives = yes
+            }
+            
+            modifier = {
+				factor = 0
+				NOT = { any_owned_province = { has_port = yes } }
+			}
+        }
+    }
+
+    custom_idea_global_naval_engagement_modifier = {
+        global_naval_engagement_modifier = 0.1
+        level_cost_2 = 3
+        level_cost_3 = 9
+        level_cost_4 = 18
+        level_cost_5 = 27
+        level_cost_6 = 36
+        level_cost_7 = 45
+        level_cost_8 = 54
+        level_cost_9 = 63
+        level_cost_10 = 72
+
+        chance = {
+            factor = 1
+
+            modifier = {
+                factor = 0
+
+                primitives = yes
+            }
+            
+            modifier = {
+				factor = 0
+				NOT = { any_owned_province = { has_port = yes } }
+			}
+        }
+    }
+
+    custom_idea_global_sailors_modifier = {
+        global_sailors_modifier = 0.1
+
+        chance = {
+            factor = 1
+
+            modifier = {
+                factor = 0
+
+                primitives = yes
+            }
+            
+            modifier = {
+				factor = 0
+				NOT = { any_owned_province = { has_port = yes } }
+			}
+        }
+    }
+
+    custom_idea_global_ship_repair = {
+        global_ship_repair = 0.1
+        level_cost_2 = 3
+        level_cost_3 = 9
+        level_cost_4 = 18
+        level_cost_5 = 27
+        level_cost_6 = 36
+        level_cost_7 = 45
+        level_cost_8 = 54
+        level_cost_9 = 63
+        level_cost_10 = 72
+
+        chance = {
+            factor = 1
+
+            modifier = {
+                factor = 0
+
+                primitives = yes
+            }
+            
+            modifier = {
+				factor = 0
+				NOT = { any_owned_province = { has_port = yes } }
+			}
+        }
+    }
+
+    custom_idea_global_ship_trade_power = {
+        global_ship_trade_power = 0.05
+
+        chance = {
+            factor = 1
+
+            modifier = {
+                factor = 0
+
+                primitives = yes
+            }
+            
+            modifier = {
+				factor = 0
+				NOT = { any_owned_province = { has_port = yes } }
+			}
+        }
+    }
+
+    custom_idea_naval_tradition_from_battle = {
+        naval_tradition_from_battle = 0.1
+        level_cost_2 = 3
+        level_cost_3 = 9
+        level_cost_4 = 18
+        level_cost_5 = 27
+        level_cost_6 = 36
+        level_cost_7 = 45
+        level_cost_8 = 54
+        level_cost_9 = 63
+        level_cost_10 = 72
+
+        chance = {
+            factor = 1
+
+            modifier = {
+                factor = 0
+
+                primitives = yes
+            }
+            
+            modifier = {
+				factor = 0
+				NOT = { any_owned_province = { has_port = yes } }
+			}
+        }
+    }
+
+    custom_idea_recover_navy_morale_speed = {
+        recover_navy_morale_speed = 0.05
+
+        chance = {
+            factor = 1
+
+            modifier = {
+                factor = 0
+
+                primitives = yes
+            }
+            
+            modifier = {
+				factor = 0
+				NOT = { any_owned_province = { has_port = yes } }
+			}
+        }
+    }
+
+    custom_idea_rebel_support_efficiency = {
+        rebel_support_efficiency = 0.1
+        level_cost_2 = 3
+        level_cost_3 = 9
+        level_cost_4 = 18
+        level_cost_5 = 27
+        level_cost_6 = 36
+        level_cost_7 = 45
+        level_cost_8 = 54
+        level_cost_9 = 63
+        level_cost_10 = 72
+    }
+
+    custom_idea_caravan_power = {
+        caravan_power = 0.05
+    }
+
+    custom_idea_global_foreign_trade_power = {
+        global_foreign_trade_power = 0.05
+    }
+
+    custom_idea_global_own_trade_power = {
+        global_own_trade_power = 0.05
+    }
+
+    custom_idea_global_trade_goods_size_modifier = {
+        global_trade_goods_size_modifier = 0.05
+    }
+
+    custom_idea_placed_merchant_power = {
+        placed_merchant_power = 0.1
+        level_cost_2 = 3
+        level_cost_3 = 9
+        level_cost_4 = 18
+        level_cost_5 = 27
+        level_cost_6 = 36
+        level_cost_7 = 45
+        level_cost_8 = 54
+        level_cost_9 = 63
+        level_cost_10 = 72
+    }
+
+    custom_idea_ship_power_propagation = {
+        ship_power_propagation = 0.1
+
+        chance = {
+            factor = 1
+
+            modifier = {
+                factor = 0
+
+                primitives = yes
+            }
+            
+            modifier = {
+				factor = 0
+				NOT = { any_owned_province = { has_port = yes } }
+			}
+        }
+    }
+
+    custom_idea_trade_range_modifier = {
+        trade_range_modifier = 0.1
+    }
+
+    custom_idea_province_warscore_cost = {
+        province_warscore_cost = -0.05
+    }
+
+    custom_idea_unjustified_demands = {
+        unjustified_demands = -0.05
+    }
+
+    custom_idea_dip_tech_cost_modifier = {
+        dip_tech_cost_modifier = -0.025
+    }
+
+    custom_idea_envoy_travel_time = {
+        envoy_travel_time = -0.1
+        level_cost_2 = 3
+        level_cost_3 = 9
+        level_cost_4 = 18
+        level_cost_5 = 27
+        level_cost_6 = 36
+        level_cost_7 = 45
+        level_cost_8 = 54
+        level_cost_9 = 63
+        level_cost_10 = 72
+    }
+
+    custom_idea_migration_cooldown = {
+        migration_cooldown = -0.05
+        level_cost_2 = 3
+        level_cost_3 = 9
+        level_cost_4 = 18
+        level_cost_5 = 27
+        level_cost_6 = 36
+        level_cost_7 = 45
+        level_cost_8 = 54
+        level_cost_9 = 63
+        level_cost_10 = 72
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_global_ship_cost = {
+        global_ship_cost = -0.05
+        level_cost_2 = 3
+        level_cost_3 = 9
+        level_cost_4 = 18
+        level_cost_5 = 27
+        level_cost_6 = 36
+        level_cost_7 = 45
+        level_cost_8 = 54
+        level_cost_9 = 63
+        level_cost_10 = 72
+
+        chance = {
+            factor = 1
+
+            modifier = {
+                factor = 0
+
+                primitives = yes
+            }
+            
+            modifier = {
+				factor = 0
+				NOT = { any_owned_province = { has_port = yes } }
+			}
+        }
+    }
+
+    custom_idea_naval_attrition = {
+        naval_attrition = -0.05
+
+        chance = {
+            factor = 1
+
+            modifier = {
+                factor = 0
+
+                primitives = yes
+            }
+            
+            modifier = {
+				factor = 0
+				NOT = { any_owned_province = { has_port = yes } }
+			}
+        }
+    }
+
+    custom_idea_sunk_ship_morale_hit_recieved = {
+        sunk_ship_morale_hit_recieved = -0.05
+
+        chance = {
+            factor = 1
+
+            modifier = {
+                factor = 0
+
+                primitives = yes
+            }
+            
+            modifier = {
+				factor = 0
+				NOT = { any_owned_province = { has_port = yes } }
+			}
+        }
+    }
+
+    custom_idea_discovered_relations_impact = {
+        discovered_relations_impact = -0.1
+        level_cost_2 = 3
+        level_cost_3 = 9
+        level_cost_4 = 18
+        level_cost_5 = 27
+        level_cost_6 = 36
+        level_cost_7 = 45
+        level_cost_8 = 54
+        level_cost_9 = 63
+        level_cost_10 = 72
+    }
+
+    custom_idea_monarch_diplomatic_power = {
+        monarch_diplomatic_power = 1
+        level_cost_1 = 25
+		level_cost_2 = 50
+		level_cost_3 = 75
+		level_cost_4 = 100	
+		level_cost_5 = 125	
+		level_cost_6 = 150
+		max_level = 6
+    }
+
+    custom_idea_num_accepted_cultures = {
+        num_accepted_cultures = 1
+        level_cost_1 = 25
+		level_cost_2 = 50
+		level_cost_3 = 75
+		level_cost_4 = 100	
+		level_cost_5 = 125	
+		max_level = 5
+    }
+
+    custom_idea_reduced_liberty_desire = {
+        reduced_liberty_desire = 10
+        level_cost_1 = 25
+		level_cost_2 = 50
+		level_cost_3 = 75
+		level_cost_4 = 100	
+		level_cost_5 = 125	
+		max_level = 5
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_liberty_desire_from_subject_development = {
+        liberty_desire_from_subject_development = -10
+        level_cost_1 = 25
+		level_cost_2 = 50
+		level_cost_3 = 75
+		level_cost_4 = 100	
+		level_cost_5 = 125	
+		max_level = 5
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_reduced_liberty_desire_on_same_continent = {
+        reduced_liberty_desire_on_same_continent = 10
+        level_cost_1 = 25
+		level_cost_2 = 50
+		level_cost_3 = 75
+		level_cost_4 = 100	
+		level_cost_5 = 125
+		max_level = 5
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_auto_explore_adjacent_to_colony = {
+        auto_explore_adjacent_to_colony = yes
+        max_level = 1
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_cb_on_overseas = {
+        cb_on_overseas = yes
+        max_level = 1
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_cb_on_primitives = {
+        cb_on_primitives = yes
+        max_level = 1
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_idea_claim_colonies = {
+        idea_claim_colonies = yes
+        level_cost_1 = 50
+        max_level = 1
+
+        chance = {
+            factor = 0
+        }
+    }
+    
+    custom_idea_may_explore = {
+        may_explore = yes
+        max_level = 1
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_may_perform_slave_raid = {
+        may_perform_slave_raid = yes
+        level_cost_1 = 100
+        max_level = 1
+
+        chance = {
+            factor = 0
+        }
+        enabled = {
+            has_dlc = "Mare Nostrum"
+        }
+    }
+
+    custom_idea_sea_repair = {
+        sea_repair = yes
+        level_cost_1 = 100
+        max_level = 1
+
+        chance = {
+            factor = 0
+        }
+    }
+}

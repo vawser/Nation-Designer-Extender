@@ -1,0 +1,28 @@
+Greatly improves the capabilities of the Nation Designer by adding missing religions, cultures and sprites
+
+All modifiers available ingame are represented via the pickable ideas, with both positive and negative versions. 
+
+Positive ideas now scale up to ten levels, with an high point cost when taking such strong ideas. On the other hand, negative ideas give your nation disadvantages, but grant you additional points to spend in the Nation Designer.
+
+[h1]Features[/h1]
+[LIST]
+[*]Adds all modifiers as pickable ideas in the Nation Designer.
+[*]Increased the scale of positive modifiers to 10 (from 4 in vanilla).
+[*]Added negative modifiers that grant points to spend in the Nation Designer.
+[*]Removes regional restrictions on certain governments, and make all governments available in the Nation Designer.
+[*]Adds 110 Map Graphics options, greatly increasing the options for customizing which unit graphics your custom nation uses.
+[*]Adds decisions to convert to Protestant, Reformed (start as Catholic) or Sikhism (start as Hindu) at game start, allowing for custom nations with them from the 1444 start.
+[*]Adds all of the CK2 converter religions (including Heresies).
+[/LIST]
+
+[h1]Misc[/h1]
+If a vanilla infantry model appears and you picked a option that shouldn't be that model, then you lack one of the Unit packs that makes up the option you picked. 
+
+[LIST]
+[*][url=https://forum.paradoxplaza.com/forum/index.php?threads/mod-nation-designer-extender.861318/]Paradoxplaza Thread[/url]
+[/LIST]
+
+
+
+
+

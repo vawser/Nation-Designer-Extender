@@ -1,0 +1,248 @@
+# Notes:
+# These are loaded instead of the default western_units, eastern_units, etc asset files, so the missing entries need to be accounted for.
+
+##############################################
+# Map Items
+##############################################
+entity = {
+	name = "mix_cherokee_gfx_magistrate"
+	clone = "northamericagfx_magistrate"
+}
+
+entity = {
+	name = "mix_cherokee_gfx_port"
+	clone = "northamericagfx_port"
+}
+
+entity = {
+	clone = northamericagfx_city_0
+	name = "mix_cherokee_gfx_city_0"
+	pdxmesh = "northamericagfx_city_0"
+}
+entity = {
+	clone = northamericagfx_city_0
+	name = "mix_cherokee_gfx_city_1"
+	pdxmesh = "northamericagfx_city_1"
+}
+entity = {
+	clone = northamericagfx_city_0
+	name = "mix_cherokee_gfx_city_2"
+	pdxmesh = "northamericagfx_city_2"
+}
+entity = {
+	clone = northamericagfx_city_0
+	name = "mix_cherokee_gfx_city_3"
+	pdxmesh = "northamericagfx_city_3"
+}
+entity = {
+	name = "mix_cherokee_gfx_castle_1"
+	pdxmesh = "northamericagfx_castle_1"
+}
+entity = {
+	name = "mix_cherokee_gfx_castle_2"
+	pdxmesh = "northamericagfx_castle_2"
+}
+entity = {
+	name = "mix_cherokee_gfx_castle_3"
+	pdxmesh = "northamericagfx_castle_3"
+}
+entity = {
+	name = "mix_cherokee_gfx_house_1_1"
+	pdxmesh = "northamericagfx_house_1_1"
+}
+entity = {
+	name = "mix_cherokee_gfx_house_1_2"
+	pdxmesh = "northamericagfx_house_1_2"
+}
+entity = {
+	name = "mix_cherokee_gfx_house_1_3"
+	pdxmesh = "northamericagfx_house_1_3"
+}
+entity = {
+	name = "mix_cherokee_gfx_house_1_4"
+	pdxmesh = "northamericagfx_house_1_4"
+}
+entity = {
+	name = "mix_cherokee_gfx_house_2_1"
+	pdxmesh = "northamericagfx_house_2_1"
+}
+entity = {
+	name = "mix_cherokee_gfx_house_2_2"
+	pdxmesh = "northamericagfx_house_2_2"
+}
+entity = {
+	name = "mix_cherokee_gfx_house_2_3"
+	pdxmesh = "northamericagfx_house_2_3"
+}
+entity = {
+	name = "mix_cherokee_gfx_house_2_4"
+	pdxmesh = "northamericagfx_house_2_4"
+}
+entity = {
+	name = "mix_cherokee_gfx_house_3_1"
+	pdxmesh = "northamericagfx_house_3_1"
+}
+entity = {
+	name = "mix_cherokee_gfx_house_3_2"
+	pdxmesh = "northamericagfx_house_3_2"
+}
+entity = {
+	name = "mix_cherokee_gfx_house_3_3"
+	pdxmesh = "northamericagfx_house_3_3"
+}
+entity = {
+	name = "mix_cherokee_gfx_house_3_4"
+	pdxmesh = "northamericagfx_house_3_4"
+}
+entity = {
+	name = "mix_cherokee_gfx_house_4_1"
+	pdxmesh = "northamericagfx_house_4_1"
+}
+entity = {
+	name = "mix_cherokee_gfx_house_4_2"
+	pdxmesh = "northamericagfx_house_4_2"
+}
+entity = {
+	name = "mix_cherokee_gfx_house_4_3"
+	pdxmesh = "northamericagfx_house_4_3"
+}
+entity = {
+	name = "mix_cherokee_gfx_house_4_4"
+	pdxmesh = "northamericagfx_house_4_4"
+}
+
+entity = {
+	name = "mix_cherokee_gfx_fort_15th"
+	pdxmesh = "northamericagfx_fort_15th"
+}
+
+entity = {
+	name = "mix_cherokee_gfx_fort_16th"
+	pdxmesh = "northamericagfx_fort_16th"
+}
+entity = {
+	name = "mix_cherokee_gfx_fort_17th"
+	pdxmesh = "northamericagfx_fort_17th"
+}
+entity = {
+	name = "mix_cherokee_gfx_fort_18th"
+	pdxmesh = "northamericagfx_fort_18th"
+}
+
+###################################################################################################################
+#####                                                                                                         #####
+#####                                                   Infantry	                                          #####
+#####                                                                                                         #####
+###################################################################################################################
+
+entity = {
+	name = "mix_cherokee_gfx_INFANTRY_1"
+	clone = "CHE_INFANTRY_1"
+}
+
+entity = {
+	name = "mix_cherokee_gfx_INFANTRY_2"
+	clone = "northamericagfx_INFANTRY_2"
+}
+
+entity = {
+	name = "mix_cherokee_gfx_INFANTRY_3"
+	clone = "northamericagfx_INFANTRY_3"
+}
+
+entity = {
+	name = "mix_cherokee_gfx_INFANTRY_4"
+	clone = "northamericagfx_INFANTRY_4"
+}
+
+###################################################################################################################
+#####                                                                                                         #####
+#####                                                   Cavalry		                                          #####
+#####                                                                                                         #####
+###################################################################################################################
+
+entity = {
+	name = "mix_cherokee_gfx_CAVALRY_1"
+	clone = "CHE_CAVALRY_1"
+}
+
+entity = {
+	name = "mix_cherokee_gfx_CAVALRY_2"
+	clone = "northamericagfx_CAVALRY_2"
+}
+
+entity = {
+	name = "mix_cherokee_gfx_CAVALRY_3"
+	clone = "northamericagfx_CAVALRY_3"
+}
+
+entity = {
+	name = "mix_cherokee_gfx_CAVALRY_4"
+	clone = "northamericagfx_CAVALRY_4"
+}
+
+###################################################################################################################
+#####                                                                                                         #####
+#####                                                   Artillery		                                      #####
+#####                                                                                                         #####
+###################################################################################################################
+entity = {
+	name = "mix_cherokee_gfx_ARTILLERY_1"
+	pdxmesh = "artillery_base_mesh"
+
+	state = { name = "attack"		animation = "artillery_base_attack" }
+	state = { name = "idle" 		animation = "artillery_base_idle" }
+	state = { name = "walk" 		animation = "artillery_base_moving" }
+	
+	attach = { 
+		name = "gunman"
+		infantry_node = "mix_cherokee_gfx_INFANTRY_1" 
+		cannon_node = "northamericagfx_ARTILLERY_1_cannon" 
+	}
+}
+
+entity = {
+	name = "mix_cherokee_gfx_ARTILLERY_2"
+	pdxmesh = "artillery_base_mesh"
+
+	state = { name = "attack"		animation = "artillery_base_attack" }
+	state = { name = "idle" 		animation = "artillery_base_idle" }
+	state = { name = "walk" 		animation = "artillery_base_moving" }
+	
+	attach = { 
+		name = "gunman"
+		infantry_node = "mix_cherokee_gfx_INFANTRY_2" 
+		cannon_node = "northamericagfx_ARTILLERY_1_cannon" 
+	}
+}
+
+entity = {
+	name = "mix_cherokee_gfx_ARTILLERY_3"
+	pdxmesh = "artillery_base_mesh"
+
+	state = { name = "attack"		animation = "artillery_base_attack" }
+	state = { name = "idle" 		animation = "artillery_base_idle" }
+	state = { name = "walk" 		animation = "artillery_base_moving" }
+	
+	attach = { 
+		name = "gunman"
+		infantry_node = "mix_cherokee_gfx_INFANTRY_3" 
+		cannon_node = "northamericagfx_ARTILLERY_1_cannon" 
+	}
+}
+
+entity = {
+	name = "mix_cherokee_gfx_ARTILLERY_4"
+	pdxmesh = "artillery_base_mesh"
+
+	state = { name = "attack"		animation = "artillery_base_attack" }
+	state = { name = "idle" 		animation = "artillery_base_idle" }
+	state = { name = "walk" 		animation = "artillery_base_moving" }
+	
+	attach = { 
+		name = "gunman"
+		infantry_node = "mix_cherokee_gfx_INFANTRY_4" 
+		cannon_node = "northamericagfx_ARTILLERY_1_cannon" 
+	}
+}
+

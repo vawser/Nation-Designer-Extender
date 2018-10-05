@@ -1,0 +1,1144 @@
+negative_adm_idea_modifiers = {
+	category = ADM
+	
+	custom_idea_global_tax_modifier_neg = {
+		global_tax_modifier = -0.05
+		default = 2
+        level_cost_1 = -5
+        level_cost_2 = -10
+        level_cost_3 = -15
+        level_cost_4 = -20
+        level_cost_5 = -25
+        level_cost_6 = -30
+        level_cost_7 = -35
+        level_cost_8 = -40
+        level_cost_9 = -45
+        level_cost_10 = -50
+        chance = {
+			factor = 0
+		}	
+	}		
+	custom_idea_production_efficiency_neg = {
+		production_efficiency = -0.05	
+		default = 8
+        level_cost_1 = -5
+        level_cost_2 = -10
+        level_cost_3 = -15
+        level_cost_4 = -20
+        level_cost_5 = -25
+        level_cost_6 = -30
+        level_cost_7 = -35
+        level_cost_8 = -40
+        level_cost_9 = -45
+        level_cost_10 = -50
+        chance = {
+			factor = 0
+		}	
+	}	
+	custom_idea_global_unrest_neg = {
+		global_unrest = 0.5
+		default = 5
+        level_cost_1 = -5
+        level_cost_2 = -10
+        level_cost_3 = -15
+        level_cost_4 = -20
+        level_cost_5 = -25
+        level_cost_6 = -30
+        level_cost_7 = -35
+        level_cost_8 = -40
+        level_cost_9 = -45
+        level_cost_10 = -50
+        chance = {
+			factor = 0
+		}	
+	}
+	custom_idea_stability_cost_modifier_neg = {
+		stability_cost_modifier = 0.05
+		default = 3
+        level_cost_1 = -2
+        level_cost_2 = -4
+        level_cost_3 = -6
+        level_cost_4 = -8
+        level_cost_5 = -10
+        level_cost_6 = -12
+        level_cost_7 = -14
+        level_cost_8 = -16
+        level_cost_9 = -18
+        level_cost_10 = -20
+        chance = {
+			factor = 0
+		}	
+	}
+	custom_idea_missionaries_neg = {
+		missionaries = -1
+		level_cost_1 = -25
+		level_cost_2 = -50
+        max_level = 2
+        chance = {
+			factor = 0
+		}	
+	}	
+	custom_idea_inflation_reduction_neg = {
+		inflation_reduction = -0.05
+        level_cost_1 = -5
+        level_cost_2 = -10
+        level_cost_3 = -15
+        level_cost_4 = -20
+        level_cost_5 = -25
+        level_cost_6 = -30
+        level_cost_7 = -35
+        level_cost_8 = -40
+        level_cost_9 = -45
+        level_cost_10 = -50
+        chance = {
+			factor = 0
+		}	
+	}
+	custom_idea_inflation_action_cost_neg = {
+		inflation_action_cost = 0.05
+		level_cost_1 = -2
+        level_cost_2 = -4
+        level_cost_3 = -6
+        level_cost_4 = -8
+        level_cost_5 = -10
+        level_cost_6 = -12
+        level_cost_7 = -14
+        level_cost_8 = -16
+        level_cost_9 = -18
+        level_cost_10 = -20
+        chance = {
+			factor = 0
+		}	
+	}	
+	custom_idea_interest_neg = {
+		interest = 0.05
+        level_cost_1 = -5
+        level_cost_2 = -10
+        level_cost_3 = -15
+        level_cost_4 = -20
+        level_cost_5 = -25
+        level_cost_6 = -30
+        level_cost_7 = -35
+        level_cost_8 = -40
+        level_cost_9 = -45
+        level_cost_10 = -50
+        chance = {
+			factor = 0
+		}	
+	}	
+	custom_idea_build_cost_neg = {
+		build_cost = 0.05
+        level_cost_1 = -5
+        level_cost_2 = -10
+        level_cost_3 = -15
+        level_cost_4 = -20
+        level_cost_5 = -25
+        level_cost_6 = -30
+        level_cost_7 = -35
+        level_cost_8 = -40
+        level_cost_9 = -45
+        level_cost_10 = -50
+        chance = {
+			factor = 0
+		}	
+	}	
+	custom_idea_development_cost_neg = {
+		development_cost = 0.05
+        level_cost_1 = -5
+        level_cost_2 = -10
+        level_cost_3 = -15
+        level_cost_4 = -20
+        level_cost_5 = -25
+        level_cost_6 = -30
+        level_cost_7 = -35
+        level_cost_8 = -40
+        level_cost_9 = -45
+        level_cost_10 = -50
+        chance = {
+			factor = 0
+		}	
+	}
+	custom_idea_global_missionary_strength_neg = {
+		global_missionary_strength = -0.01
+        level_cost_1 = -5
+        level_cost_2 = -10
+        level_cost_3 = -15
+        level_cost_4 = -20
+        level_cost_5 = -25
+        level_cost_6 = -30
+        level_cost_7 = -35
+        level_cost_8 = -40
+        level_cost_9 = -45
+        level_cost_10 = -50
+        chance = {
+			factor = 0
+		}	
+	}	
+	custom_idea_prestige_neg = {
+		prestige = -0.5
+        level_cost_1 = -5
+        level_cost_2 = -10
+        level_cost_3 = -15
+        level_cost_4 = -20
+        level_cost_5 = -25
+        level_cost_6 = -30
+        level_cost_7 = -35
+        level_cost_8 = -40
+        level_cost_9 = -45
+        level_cost_10 = -50
+        chance = {
+			factor = 0
+		}	
+	}
+	custom_idea_prestige_decay_neg = {
+		prestige_decay = 0.01
+        level_cost_1 = -2
+        level_cost_2 = -4
+        level_cost_3 = -6
+        level_cost_4 = -8
+        level_cost_5 = -10
+        level_cost_6 = -12
+        level_cost_7 = -14
+        level_cost_8 = -16
+        level_cost_9 = -18
+        level_cost_10 = -20
+        chance = {
+			factor = 0
+		}	
+	}	
+	custom_idea_legitimacy_neg = {
+		legitimacy = -0.5
+        level_cost_1 = -1
+        level_cost_2 = -2
+        level_cost_3 = -3
+        level_cost_4 = -4
+        level_cost_5 = -5
+        level_cost_6 = -6
+        level_cost_7 = -7
+        level_cost_8 = -8
+        level_cost_9 = -9
+        level_cost_10 = -10
+		chance = {
+			factor = 0
+		}	
+	}
+	custom_idea_republican_tradition_neg = {
+		republican_tradition = -0.5
+		level_cost_1 = -1
+        level_cost_2 = -2
+        level_cost_3 = -3
+        level_cost_4 = -4
+        level_cost_5 = -5
+        level_cost_6 = -6
+        level_cost_7 = -7
+        level_cost_8 = -8
+        level_cost_9 = -9
+        level_cost_10 = -10
+		chance = {
+			factor = 0
+		}	
+	}		
+	custom_idea_technology_cost_neg = {
+		technology_cost = 0.025
+        level_cost_1 = -5
+        level_cost_2 = -10
+        level_cost_3 = -15
+        level_cost_4 = -20
+        level_cost_5 = -25
+        level_cost_6 = -30
+        level_cost_7 = -35
+        level_cost_8 = -40
+        level_cost_9 = -45
+        level_cost_10 = -50
+        chance = {
+			factor = 0
+		}
+	}
+	custom_idea_idea_cost_neg = {
+		idea_cost = 0.025
+        level_cost_1 = -5
+        level_cost_2 = -10
+        level_cost_3 = -15
+        level_cost_4 = -20
+        level_cost_5 = -25
+        level_cost_6 = -30
+        level_cost_7 = -35
+        level_cost_8 = -40
+        level_cost_9 = -45
+        level_cost_10 = -50
+        chance = {
+			factor = 0
+		}
+	}		
+	custom_idea_advisor_cost_neg = {
+		advisor_cost = 0.05
+        level_cost_1 = -5
+        level_cost_2 = -10
+        level_cost_3 = -15
+        level_cost_4 = -20
+        level_cost_5 = -25
+        level_cost_6 = -30
+        level_cost_7 = -35
+        level_cost_8 = -40
+        level_cost_9 = -45
+        level_cost_10 = -50
+        chance = {
+			factor = 0
+		}
+	}	
+	custom_idea_advisor_pool_neg = {
+		advisor_pool = -1
+        level_cost_1 = -25
+        level_cost_2 = -50
+        max_level = 2
+        chance = {
+			factor = 0
+		}
+	}	
+	custom_idea_tolerance_own_neg = {
+		tolerance_own = -1
+		level_cost_1 = -10
+        level_cost_2 = -20
+        level_cost_3 = -30
+        level_cost_4 = -40
+        level_cost_5 = -50
+        max_level = 5
+        chance = {
+			factor = 0
+		}
+	}	
+	custom_idea_tolerance_heretic_neg = {
+		tolerance_heretic = -1
+		level_cost_1 = -10
+        level_cost_2 = -20
+        level_cost_3 = -30
+        level_cost_4 = -40
+        level_cost_5 = -50
+        max_level = 5
+        chance = {
+			factor = 0
+		}
+	}	
+	custom_idea_tolerance_heathen_neg = {
+		tolerance_heathen = -1
+		level_cost_1 = -10
+        level_cost_2 = -20
+        level_cost_3 = -30
+        level_cost_4 = -40
+        level_cost_5 = -50
+        max_level = 5
+        chance = {
+			factor = 0
+		}
+	}
+	custom_idea_heir_chance_neg = {
+		heir_chance = -0.1
+        level_cost_1 = -2
+        level_cost_2 = -4
+        level_cost_3 = -6
+        level_cost_4 = -8
+        level_cost_5 = -10
+        level_cost_6 = -12
+        level_cost_7 = -14
+        level_cost_8 = -16
+        level_cost_9 = -18
+        level_cost_10 = -20
+        chance = {
+            factor = 0
+        }
+	}		
+	custom_idea_enemy_core_creation_neg = {
+		enemy_core_creation = -0.05
+        level_cost_1 = -2
+        level_cost_2 = -4
+        level_cost_3 = -6
+        level_cost_4 = -8
+        level_cost_5 = -10
+        level_cost_6 = -12
+        level_cost_7 = -14
+        level_cost_8 = -16
+        level_cost_9 = -18
+        level_cost_10 = -20
+        chance = {
+            factor  = 0
+        }
+	}	
+	custom_idea_core_creation_neg = {
+		core_creation = 0.05
+        level_cost_1 = -5
+        level_cost_2 = -10
+        level_cost_3 = -15
+        level_cost_4 = -20
+        level_cost_5 = -25
+        level_cost_6 = -30
+        level_cost_7 = -35
+        level_cost_8 = -40
+        level_cost_9 = -45
+        level_cost_10 = -50
+        chance = {
+			factor = 0
+		}
+	}	
+	custom_idea_vassal_income_neg = {
+		vassal_income = -0.1
+        level_cost_1 = -2
+        level_cost_2 = -4
+        level_cost_3 = -6
+        level_cost_4 = -8
+        level_cost_5 = -10
+        level_cost_6 = -12
+        level_cost_7 = -14
+        level_cost_8 = -16
+        level_cost_9 = -18
+        level_cost_10 = -20
+        chance = {
+			factor = 0
+		}
+	}	
+	custom_idea_religious_unity_neg = {
+		religious_unity = -0.1
+        level_cost_1 = -5
+        level_cost_2 = -10
+        level_cost_3 = -15
+        level_cost_4 = -20
+        level_cost_5 = -25
+        level_cost_6 = -30
+        level_cost_7 = -35
+        level_cost_8 = -40
+        level_cost_9 = -45
+        level_cost_10 = -50
+        chance = {
+			factor = 0
+		}
+	}
+	custom_idea_global_autonomy_neg = {
+		global_autonomy = 0.01
+        level_cost_1 = -5
+        level_cost_2 = -10
+        level_cost_3 = -15
+        level_cost_4 = -20
+        level_cost_5 = -25
+        level_cost_6 = -30
+        level_cost_7 = -35
+        level_cost_8 = -40
+        level_cost_9 = -45
+        level_cost_10 = -50
+        chance = {
+			factor = 0
+		}
+	}
+	custom_idea_imperial_authority_neg = {
+		imperial_authority = -0.1
+        level_cost_1 = -1
+        level_cost_2 = -2
+        level_cost_3 = -3
+        level_cost_4 = -4
+        level_cost_5 = -5
+        level_cost_6 = -6
+        level_cost_7 = -7
+        level_cost_8 = -8
+        level_cost_9 = -9
+        level_cost_10 = -10
+        
+		chance = {
+			factor = 0
+		}	
+	}
+    
+    custom_idea_same_culture_advisor_cost_neg = {
+        same_culture_advisor_cost = 0.05
+        level_cost_1 = -5
+        level_cost_2 = -10
+        level_cost_3 = -15
+        level_cost_4 = -20
+        level_cost_5 = -25
+        level_cost_6 = -30
+        level_cost_7 = -35
+        level_cost_8 = -40
+        level_cost_9 = -45
+        level_cost_10 = -50
+        chance = {
+			factor = 0
+		}
+    }
+    
+    custom_idea_promote_culture_cost_neg = {
+        promote_culture_cost = 0.1
+        level_cost_1 = -2
+        level_cost_2 = -4
+        level_cost_3 = -6
+        level_cost_4 = -8
+        level_cost_5 = -10
+        level_cost_6 = -12
+        level_cost_7 = -14
+        level_cost_8 = -16
+        level_cost_9 = -18
+        level_cost_10 = -20
+        chance = {
+			factor = 0
+		}
+    }
+    
+    custom_idea_imperial_authority_value_neg = {
+        imperial_authority_value = -0.5
+        level_cost_1 = -1
+        level_cost_2 = -2
+        level_cost_3 = -3
+        level_cost_4 = -4
+        level_cost_5 = -5
+        level_cost_6 = -6
+        level_cost_7 = -7
+        level_cost_8 = -8
+        level_cost_9 = -9
+        level_cost_10 = -10
+        chance = {
+            factor = 0
+        }
+    }
+    
+    custom_idea_imperial_mandate_neg = {
+        imperial_mandate = -0.5
+        level_cost_1 = -1
+        level_cost_2 = -2
+        level_cost_3 = -3
+        level_cost_4 = -4
+        level_cost_5 = -5
+        level_cost_6 = -6
+        level_cost_7 = -7
+        level_cost_8 = -8
+        level_cost_9 = -9
+        level_cost_10 = -10
+        chance = {
+            factor = 0
+        }
+        enabled = {
+            has_dlc = "Mandate of Heaven"
+        }
+    }
+    
+    custom_idea_global_institution_spread_neg = {
+        global_institution_spread = -0.05
+        level_cost_1 = -5
+        level_cost_2 = -10
+        level_cost_3 = -15
+        level_cost_4 = -20
+        level_cost_5 = -25
+        level_cost_6 = -30
+        level_cost_7 = -35
+        level_cost_8 = -40
+        level_cost_9 = -45
+        level_cost_10 = -50
+        chance = {
+			factor = 0
+		}
+    }
+
+    custom_idea_administrative_efficiency_neg = {
+        administrative_efficiency = -0.025
+        level_cost_1 = -5
+        level_cost_2 = -10
+        level_cost_3 = -15
+        level_cost_4 = -20
+        level_cost_5 = -25
+        level_cost_6 = -30
+        level_cost_7 = -35
+        level_cost_8 = -40
+        level_cost_9 = -45
+        level_cost_10 = -50
+        chance = {
+			factor = 0
+		}
+    }
+
+    custom_idea_core_decay_on_your_own_neg = {
+        core_decay_on_your_own = 0.1
+        level_cost_1 = -1
+        level_cost_2 = -2
+        level_cost_3 = -3
+        level_cost_4 = -4
+        level_cost_5 = -5
+        level_cost_6 = -6
+        level_cost_7 = -7
+        level_cost_8 = -8
+        level_cost_9 = -9
+        level_cost_10 = -10
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_female_advisor_chance_neg = {
+        female_advisor_chance = -0.1
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_yearly_absolutism_neg = {
+        yearly_absolutism = -0.5
+        level_cost_1 = -5
+        level_cost_2 = -10
+        level_cost_3 = -15
+        level_cost_4 = -20
+        level_cost_5 = -25
+        level_cost_6 = -30
+        level_cost_7 = -35
+        level_cost_8 = -40
+        level_cost_9 = -45
+        level_cost_10 = -50
+        chance = {
+			factor = 0
+		}
+    }
+
+    custom_idea_possible_condottieri_neg = {
+        possible_condottieri = -0.1
+        level_cost_1 = -1
+        level_cost_2 = -2
+        level_cost_3 = -3
+        level_cost_4 = -4
+        level_cost_5 = -5
+        level_cost_6 = -6
+        level_cost_7 = -7
+        level_cost_8 = -8
+        level_cost_9 = -9
+        level_cost_10 = -10
+        chance = {
+			factor = 0
+		}
+        enabled = {
+            has_dlc = "Mare Nostrum"
+        }
+    }
+
+    custom_idea_church_power_modifier_neg = {
+        church_power_modifier = -0.1
+        level_cost_1 = -1
+        level_cost_2 = -2
+        level_cost_3 = -3
+        level_cost_4 = -4
+        level_cost_5 = -5
+        level_cost_6 = -6
+        level_cost_7 = -7
+        level_cost_8 = -8
+        level_cost_9 = -9
+        level_cost_10 = -10
+        
+        chance = {
+            factor = 0
+        }
+        enabled = {
+            has_dlc = "Common Sense"
+        }
+    }
+
+    custom_idea_enforce_religion_cost_neg = {
+        enforce_religion_cost = 0.1
+        level_cost_1 = -2
+        level_cost_2 = -4
+        level_cost_3 = -6
+        level_cost_4 = -8
+        level_cost_5 = -10
+        level_cost_6 = -12
+        level_cost_7 = -14
+        level_cost_8 = -16
+        level_cost_9 = -18
+        level_cost_10 = -20
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_harmonization_speed_neg = {
+        harmonization_speed = -0.05
+
+        level_cost_1 = -1
+        level_cost_2 = -2
+        level_cost_3 = -3
+        level_cost_4 = -4
+        level_cost_5 = -5
+        level_cost_6 = -6
+        level_cost_7 = -7
+        level_cost_8 = -8
+        level_cost_9 = -9
+        level_cost_10 = -10
+        
+        chance = {
+            factor = 0
+        }
+        enabled = {
+            has_dlc = "Mandate of Heaven"
+        }
+    }
+
+    custom_idea_institution_spread_from_true_faith_neg = {
+        institution_spread_from_true_faith = -0.1
+        level_cost_1 = -5
+        level_cost_2 = -10
+        level_cost_3 = -15
+        level_cost_4 = -20
+        level_cost_5 = -25
+        level_cost_6 = -30
+        level_cost_7 = -35
+        level_cost_8 = -40
+        level_cost_9 = -45
+        level_cost_10 = -50
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_prestige_per_development_from_conversion_neg = {
+        prestige_per_development_from_conversion = -0.5
+        level_cost_1 = -2
+        level_cost_2 = -4
+        level_cost_3 = -6
+        level_cost_4 = -8
+        level_cost_5 = -10
+        level_cost_6 = -12
+        level_cost_7 = -14
+        level_cost_8 = -16
+        level_cost_9 = -18
+        level_cost_10 = -20
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_autonomy_change_time_neg = {
+        autonomy_change_time = 0.05
+        level_cost_1 = -2
+        level_cost_2 = -4
+        level_cost_3 = -6
+        level_cost_4 = -8
+        level_cost_5 = -10
+        level_cost_6 = -12
+        level_cost_7 = -14
+        level_cost_8 = -16
+        level_cost_9 = -18
+        level_cost_10 = -20
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_native_uprising_chance_neg = {
+        native_uprising_chance = 0.1
+        level_cost_1 = -2
+        level_cost_2 = -4
+        level_cost_3 = -6
+        level_cost_4 = -8
+        level_cost_5 = -10
+        level_cost_6 = -12
+        level_cost_7 = -14
+        level_cost_8 = -16
+        level_cost_9 = -18
+        level_cost_10 = -20
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_adm_tech_cost_modifier_neg = {
+        adm_tech_cost_modifier = 0.025
+        level_cost_1 = -5
+        level_cost_2 = -10
+        level_cost_3 = -15
+        level_cost_4 = -20
+        level_cost_5 = -25
+        level_cost_6 = -30
+        level_cost_7 = -35
+        level_cost_8 = -40
+        level_cost_9 = -45
+        level_cost_10 = -50
+        chance = {
+			factor = 0
+		}
+    }
+
+    custom_idea_build_time_neg = {
+        build_time = 0.05
+        level_cost_1 = -2
+        level_cost_2 = -4
+        level_cost_3 = -6
+        level_cost_4 = -8
+        level_cost_5 = -10
+        level_cost_6 = -12
+        level_cost_7 = -14
+        level_cost_8 = -16
+        level_cost_9 = -18
+        level_cost_10 = -20
+        chance = {
+			factor = 0
+		}
+    }
+
+    custom_idea_embracement_cost_neg = {
+        embracement_cost = 0.05
+        level_cost_1 = -5
+        level_cost_2 = -10
+        level_cost_3 = -15
+        level_cost_4 = -20
+        level_cost_5 = -25
+        level_cost_6 = -30
+        level_cost_7 = -35
+        level_cost_8 = -40
+        level_cost_9 = -45
+        level_cost_10 = -50
+        chance = {
+			factor = 0
+		}
+    }
+
+    custom_idea_native_advancement_cost_neg = {
+        native_advancement_cost = 0.05
+        level_cost_1 = -5
+        level_cost_2 = -10
+        level_cost_3 = -15
+        level_cost_4 = -20
+        level_cost_5 = -25
+        level_cost_6 = -30
+        level_cost_7 = -35
+        level_cost_8 = -40
+        level_cost_9 = -45
+        level_cost_10 = -50
+        chance = {
+            factor = 0
+        }
+        enabled = {
+            has_dlc = "Conquest of Paradise"
+        }
+    }
+
+    custom_idea_all_power_cost_neg = {
+        all_power_cost = 0.025
+        level_cost_1 = -5
+        level_cost_2 = -10
+        level_cost_3 = -15
+        level_cost_4 = -20
+        level_cost_5 = -25
+        level_cost_6 = -30
+        level_cost_7 = -35
+        level_cost_8 = -40
+        level_cost_9 = -45
+        level_cost_10 = -50
+        chance = {
+			factor = 0
+		}
+    }
+
+    custom_idea_monthly_militarized_society_neg = {
+        monthly_militarized_society = -0.1
+        level_cost_1 = -1
+        level_cost_2 = -2
+        level_cost_3 = -3
+        level_cost_4 = -4
+        level_cost_5 = -5
+        level_cost_6 = -6
+        level_cost_7 = -7
+        level_cost_8 = -8
+        level_cost_9 = -9
+        level_cost_10 = -10
+        chance = {
+            factor = 0
+        }
+        enabled = {
+            has_dlc = "Rights of Man"
+        }
+    }
+
+    custom_idea_yearly_corruption_neg = {
+        yearly_corruption = 0.025
+        level_cost_1 = -5
+        level_cost_2 = -10
+        level_cost_3 = -15
+        level_cost_4 = -20
+        level_cost_5 = -25
+        level_cost_6 = -30
+        level_cost_7 = -35
+        level_cost_8 = -40
+        level_cost_9 = -45
+        level_cost_10 = -50
+        chance = {
+			factor = 0
+		}
+    }
+
+    custom_idea_state_maintenance_modifier_neg = {
+        state_maintenance_modifier = 0.05
+        level_cost_1 = -2
+        level_cost_2 = -4
+        level_cost_3 = -6
+        level_cost_4 = -8
+        level_cost_5 = -10
+        level_cost_6 = -12
+        level_cost_7 = -14
+        level_cost_8 = -16
+        level_cost_9 = -18
+        level_cost_10 = -20
+        chance = {
+			factor = 0
+		}
+    }
+
+    custom_idea_max_states_neg = {
+        max_states = -1
+        level_cost_1 = -5
+        level_cost_2 = -10
+        level_cost_3 = -15
+        level_cost_4 = -20
+        level_cost_5 = -25
+        level_cost_6 = -30
+        level_cost_7 = -35
+        level_cost_8 = -40
+        level_cost_9 = -45
+        level_cost_10 = -50
+        chance = {
+			factor = 0
+		}
+    }
+
+    custom_idea_monarch_admin_power_neg = {
+        monarch_admin_power = -1
+        level_cost_1 = -50
+        level_cost_2 = -100
+        level_cost_3 = -150
+        level_cost_4 = -200
+        level_cost_5 = -250
+        level_cost_6 = -300
+        max_level = 6
+        chance = {
+			factor = 0
+		}
+    }
+
+    custom_idea_monthly_splendor_neg = {
+        monthly_splendor = -1
+        level_cost_1 = -2
+        level_cost_2 = -4
+        level_cost_3 = -6
+        level_cost_4 = -8
+        level_cost_5 = -10
+        level_cost_6 = -12
+        level_cost_7 = -14
+        level_cost_8 = -16
+        level_cost_9 = -18
+        level_cost_10 = -20
+        chance = {
+			factor = 0
+		}
+        enabled = {
+            has_dlc = "Mandate of Heaven"
+        }
+    }
+
+    custom_idea_monthly_fervor_increase_neg = {
+        monthly_fervor_increase = -0.5
+        level_cost_1 = -1
+        level_cost_2 = -2
+        level_cost_3 = -3
+        level_cost_4 = -4
+        level_cost_5 = -5
+        level_cost_6 = -6
+        level_cost_7 = -7
+        level_cost_8 = -8
+        level_cost_9 = -9
+        level_cost_10 = -10
+        chance = {
+            factor = 0
+        }
+        enabled = {
+            has_dlc = "Wealth of Nations"
+        }
+    }
+
+    custom_idea_papal_influence_neg = {
+        papal_influence = -0.5
+        level_cost_1 = -1
+        level_cost_2 = -2
+        level_cost_3 = -3
+        level_cost_4 = -4
+        level_cost_5 = -5
+        level_cost_6 = -6
+        level_cost_7 = -7
+        level_cost_8 = -8
+        level_cost_9 = -9
+        level_cost_10 = -10
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_yearly_harmony_neg = {
+        yearly_harmony = -0.5
+        level_cost_1 = -1
+        level_cost_2 = -2
+        level_cost_3 = -3
+        level_cost_4 = -4
+        level_cost_5 = -5
+        level_cost_6 = -6
+        level_cost_7 = -7
+        level_cost_8 = -8
+        level_cost_9 = -9
+        level_cost_10 = -10
+        chance = {
+            factor = 0
+        }
+        enabled = {
+            has_dlc = "Mandate of Heaven"
+        }
+    }
+
+    custom_idea_global_heretic_missionary_strength_neg = {
+        global_heretic_missionary_strength = -0.01
+        level_cost_1 = -5
+        level_cost_2 = -10
+        level_cost_3 = -15
+        level_cost_4 = -20
+        level_cost_5 = -25
+        level_cost_6 = -30
+        level_cost_7 = -35
+        level_cost_8 = -40
+        level_cost_9 = -45
+        level_cost_10 = -50
+        chance = {
+			factor = 0
+		}
+    }
+
+    custom_idea_horde_unity_neg = {
+        horde_unity = -0.5
+        level_cost_1 = -1
+        level_cost_2 = -2
+        level_cost_3 = -3
+        level_cost_4 = -4
+        level_cost_5 = -5
+        level_cost_6 = -6
+        level_cost_7 = -7
+        level_cost_8 = -8
+        level_cost_9 = -9
+        level_cost_10 = -10
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_meritocracy_neg = {
+        meritocracy = -0.5
+        level_cost_1 = -1
+        level_cost_2 = -2
+        level_cost_3 = -3
+        level_cost_4 = -4
+        level_cost_5 = -5
+        level_cost_6 = -6
+        level_cost_7 = -7
+        level_cost_8 = -8
+        level_cost_9 = -9
+        level_cost_10 = -10
+        chance = {
+            factor = 0
+        }
+        enabled = {
+            has_dlc = "Mandate of Heaven"
+        }
+    }
+
+    custom_idea_devotion_neg = {
+        devotion = -0.5
+        level_cost_1 = -1
+        level_cost_2 = -2
+        level_cost_3 = -3
+        level_cost_4 = -4
+        level_cost_5 = -5
+        level_cost_6 = -6
+        level_cost_7 = -7
+        level_cost_8 = -8
+        level_cost_9 = -9
+        level_cost_10 = -10
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_max_absolutism_neg = {
+        max_absolutism = -5
+        level_cost_1 = -5
+        level_cost_2 = -10
+        level_cost_3 = -15
+        level_cost_4 = -20
+        level_cost_5 = -25
+        level_cost_6 = -30
+        level_cost_7 = -35
+        level_cost_8 = -40
+        level_cost_9 = -45
+        level_cost_10 = -50
+        chance = {
+			factor = 0
+		}
+    }
+
+    custom_idea_years_of_nationalism_neg = {
+        years_of_nationalism = 5
+        level_cost_1 = -5
+        level_cost_2 = -10
+        level_cost_3 = -15
+        level_cost_4 = -20
+        level_cost_5 = -25
+        level_cost_6 = -30
+        level_cost_7 = -35
+        level_cost_8 = -40
+        level_cost_9 = -45
+        level_cost_10 = -50
+        chance = {
+			factor = 0
+		}
+    }
+
+    custom_idea_global_tax_income_neg = {
+        global_tax_income = -12
+        level_cost_1 = -5
+        level_cost_2 = -10
+        level_cost_3 = -15
+        level_cost_4 = -20
+        level_cost_5 = -25
+        level_cost_6 = -30
+        level_cost_7 = -35
+        level_cost_8 = -40
+        level_cost_9 = -45
+        level_cost_10 = -50
+        chance = {
+			factor = 0
+		}
+    }
+    
+    custom_idea_yearly_tribal_allegiance_neg = {
+        yearly_tribal_allegiance = -1
+        level_cost_1 = -1
+        level_cost_2 = -2
+        level_cost_3 = -3
+        level_cost_4 = -4
+        level_cost_5 = -5
+        level_cost_6 = -6
+        level_cost_7 = -7
+        level_cost_8 = -8
+        level_cost_9 = -9
+        level_cost_10 = -10
+        chance = {
+			factor = 0
+		}
+        enabled = {
+            has_dlc = "Cradle of Civilization"
+        }
+    }
+}

@@ -1,0 +1,183 @@
+# Do not change tags in here without changing every other reference to them.
+# If adding new dieties, make sure they are uniquely named.
+deity_aphrodite =
+{
+
+	allow = { religion = hellenic_pagan }
+	sprite = 99
+	
+	advisor_pool = 1
+	
+	ai_will_do = {
+		factor = 1	
+	}
+}
+
+deity_apollo =
+{
+
+	allow = { religion = hellenic_pagan }
+	sprite = 99
+	
+	build_cost = -0.15
+	
+	ai_will_do = {
+		factor = 1	
+	}
+}
+
+deity_ares =
+{
+
+	allow = { religion = hellenic_pagan }
+	sprite = 99
+	
+	infantry_power = 0.1
+
+	ai_will_do = {
+		factor = 1	
+	}
+}
+
+deity_artemis =
+{
+
+	allow = { religion = hellenic_pagan }
+	sprite = 99
+	
+	siege_ability = 0.1
+	
+	ai_will_do = {
+		factor = 1	
+	}
+}
+
+deity_athena =
+{
+
+	allow = { religion = hellenic_pagan }
+	sprite = 99
+	
+	technology_cost = -0.1
+	
+	ai_will_do = {
+		factor = 1	
+	}
+}
+
+deity_demeter =
+{
+
+	allow = { religion = hellenic_pagan }
+	sprite = 99
+	
+	global_trade_goods_size_modifier = 0.25
+	
+	ai_will_do = {
+		factor = 1	
+	}
+}
+
+deity_dionysus =
+{
+
+	allow = { religion = hellenic_pagan }
+	sprite = 99
+	
+	global_unrest = -2
+	
+	ai_will_do = {
+		factor = 1	
+	}
+}
+
+deity_hades =
+{
+
+	allow = { religion = hellenic_pagan }
+	sprite = 99
+	
+	land_morale = 0.2
+	
+	ai_will_do = {
+		factor = 1	
+	}
+}
+
+deity_hephaestus =
+{
+
+	allow = { religion = hellenic_pagan }
+	sprite = 99
+	
+	artillery_power = 0.1
+	
+	ai_will_do = {
+		factor = 1	
+	}
+}
+
+deity_hera =
+{
+
+	allow = { religion = hellenic_pagan }
+	sprite = 99
+	
+	diplomatic_reputation = 2
+	
+	ai_will_do = {
+		factor = 1	
+	}
+}
+
+deity_hermes =
+{
+
+	allow = { religion = hellenic_pagan }
+	sprite = 99
+	
+	diplomatic_annexation_cost = -0.25
+	
+	ai_will_do = {
+		factor = 1	
+	}
+}
+
+deity_hestia =
+{
+
+	allow = { religion = hellenic_pagan }
+	sprite = 99
+	
+	production_efficiency = 0.2
+	
+	ai_will_do = {
+		factor = 1	
+	}
+}
+
+deity_poseidon =
+{
+
+	allow = { religion = hellenic_pagan }
+	sprite = 99
+	
+	naval_morale = 0.5
+	
+	ai_will_do = {
+		factor = 1	
+	}
+}
+
+deity_zeus =
+{
+
+	allow = { religion = hellenic_pagan }
+	sprite = 99
+	
+	stability_cost_modifier = -0.25
+	
+	ai_will_do = {
+		factor = 1	
+	}
+}
