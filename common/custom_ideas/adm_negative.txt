@@ -1141,4 +1141,140 @@ negative_adm_idea_modifiers = {
             has_dlc = "Cradle of Civilization"
         }
     }
+    
+    custom_idea_free_adm_policy_neg = {
+        free_adm_policy = -1
+        level_cost_1 = -5
+        level_cost_2 = -10
+        level_cost_3 = -15
+        level_cost_4 = -20
+        level_cost_5 = -25
+        level_cost_6 = -30
+        level_cost_7 = -35
+        level_cost_8 = -40
+        level_cost_9 = -45
+        level_cost_10 = -50
+        chance = {
+			factor = 0
+		}
+    }
+    
+    custom_idea_possible_adm_policy_neg = {
+        possible_adm_policy = -1
+        level_cost_1 = -5
+        level_cost_2 = -10
+        level_cost_3 = -15
+        level_cost_4 = -20
+        level_cost_5 = -25
+        level_cost_6 = -30
+        level_cost_7 = -35
+        level_cost_8 = -40
+        level_cost_9 = -45
+        level_cost_10 = -50
+        chance = {
+			factor = 0
+		}
+    }
+    custom_idea_adm_advisor_cost_neg = {
+		adm_advisor_cost = 0.05
+        level_cost_1 = -5
+        level_cost_2 = -10
+        level_cost_3 = -15
+        level_cost_4 = -20
+        level_cost_5 = -25
+        level_cost_6 = -30
+        level_cost_7 = -35
+        level_cost_8 = -40
+        level_cost_9 = -45
+        level_cost_10 = -50
+        chance = {
+			factor = 0
+		}
+	}
+    custom_idea_election_cycle_neg = {
+		election_cycle = -1
+        level_cost_1 = -25
+        level_cost_2 = -50
+        max_level = 2
+        chance = {
+			factor = 0
+		}
+	}
+    custom_idea_candidate_random_bonus_neg = {
+		candidate_random_bonus = -1
+        level_cost_1 = -20
+        level_cost_2 = -40
+        level_cost_3 = -60
+        level_cost_4 = -80
+        level_cost_5 = -100
+        level_cost_6 = -120
+        max_level = 6
+        chance = {
+			factor = 0
+		}
+	}
+    custom_idea_reelection_cost_neg = {
+		reelection_cost = 0.05
+        level_cost_1 = -5
+        level_cost_2 = -10
+        level_cost_3 = -15
+        level_cost_4 = -20
+        level_cost_5 = -25
+        level_cost_6 = -30
+        level_cost_7 = -35
+        level_cost_8 = -40
+        level_cost_9 = -45
+        level_cost_10 = -50
+        chance = {
+			factor = 0
+		}
+	}
+    custom_idea_reform_progress_growth_neg = {
+		reform_progress_growth = -0.05
+        level_cost_1 = -5
+        level_cost_2 = -10
+        level_cost_3 = -15
+        level_cost_4 = -20
+        level_cost_5 = -25
+        level_cost_6 = -30
+        level_cost_7 = -35
+        level_cost_8 = -40
+        level_cost_9 = -45
+        level_cost_10 = -50
+        chance = {
+			factor = 0
+		}
+	}
+    custom_idea_min_autonomy_in_territories_neg = {
+		min_autonomy_in_territories = 0.05
+        level_cost_1 = -5
+        level_cost_2 = -10
+        level_cost_3 = -15
+        level_cost_4 = -20
+        level_cost_5 = -25
+        level_cost_6 = -30
+        level_cost_7 = -35
+        level_cost_8 = -40
+        level_cost_9 = -45
+        level_cost_10 = -50
+        chance = {
+			factor = 0
+		}
+	}
+    custom_idea_monthly_support_heir_gain_neg = {
+		monthly_support_heir_gain = -0.05
+        level_cost_1 = -5
+        level_cost_2 = -10
+        level_cost_3 = -15
+        level_cost_4 = -20
+        level_cost_5 = -25
+        level_cost_6 = -30
+        level_cost_7 = -35
+        level_cost_8 = -40
+        level_cost_9 = -45
+        level_cost_10 = -50
+        chance = {
+			factor = 0
+		}
+	}
 }

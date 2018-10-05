@@ -10,13 +10,15 @@ Positive ideas now scale up to ten levels, with an high point cost when taking s
 [*]Increased the scale of positive modifiers to 10 (from 4 in vanilla).
 [*]Added negative modifiers that grant points to spend in the Nation Designer.
 [*]Removes regional restrictions on certain governments, and make all governments available in the Nation Designer.
-[*]Adds 110 Map Graphics options, greatly increasing the options for customizing which unit graphics your custom nation uses.
+[*]Adds 133 Map Graphics options, greatly increasing the options for customizing which unit graphics your custom nation uses, including Synthetics!
 [*]Adds decisions to convert to Protestant, Reformed (start as Catholic) or Sikhism (start as Hindu) at game start, allowing for custom nations with them from the 1444 start.
 [*]Adds all of the CK2 converter religions (including Heresies).
 [/LIST]
 
 [h1]Misc[/h1]
 If a vanilla infantry model appears and you picked a option that shouldn't be that model, then you lack one of the Unit packs that makes up the option you picked. 
+
+Note that newer unit packs will override older unit packs that affect the same tag (i.e. the 100 Years War models for Scotland will be overridden by the Rule Britannia models for Scotland).
 
 [LIST]
 [*][url=https://forum.paradoxplaza.com/forum/index.php?threads/mod-nation-designer-extender.861318/]Paradoxplaza Thread[/url]

@@ -35,17 +35,9 @@ spriteTypes = {
 		noOfFrames = 59		
 	}
     
-	
 	spriteType = {
 		name = "GFX_hindu_deities_strip"
 		texturefile = "gfx//interface//hindu_deities_strip.dds"
 		noOfFrames = 12
 	}
-	
-	spriteType = {
-		name = "GFX_tech_group_strip"
-		texturefile = "gfx/interface/tech_group_strip.dds"
-		transparencecheck = yes	
-		noOfFrames = 16
-	}	
 }

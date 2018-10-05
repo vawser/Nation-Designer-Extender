@@ -1229,4 +1229,72 @@ negative_dip_idea_modifiers = {
             factor = 0
         }
     }
+    
+    custom_idea_free_dip_policy_neg = {
+        free_dip_policy = -1
+        level_cost_1 = -5
+        level_cost_2 = -10
+        level_cost_3 = -15
+        level_cost_4 = -20
+        level_cost_5 = -25
+        level_cost_6 = -30
+        level_cost_7 = -35
+        level_cost_8 = -40
+        level_cost_9 = -45
+        level_cost_10 = -50
+        chance = {
+			factor = 0
+		}
+    }
+    
+    custom_idea_possible_dip_policy_neg = {
+        possible_dip_policy = -1
+        level_cost_1 = -5
+        level_cost_2 = -10
+        level_cost_3 = -15
+        level_cost_4 = -20
+        level_cost_5 = -25
+        level_cost_6 = -30
+        level_cost_7 = -35
+        level_cost_8 = -40
+        level_cost_9 = -45
+        level_cost_10 = -50
+        chance = {
+			factor = 0
+		}
+    }
+    
+    custom_idea_dip_advisor_cost_neg = {
+		dip_advisor_cost = 0.05
+        level_cost_1 = -5
+        level_cost_2 = -10
+        level_cost_3 = -15
+        level_cost_4 = -20
+        level_cost_5 = -25
+        level_cost_6 = -30
+        level_cost_7 = -35
+        level_cost_8 = -40
+        level_cost_9 = -45
+        level_cost_10 = -50
+        chance = {
+			factor = 0
+		}
+	}
+    
+    custom_idea_power_projection_from_insults = {
+		power_projection_from_insults = -0.05
+        level_cost_1 = -5
+        level_cost_2 = -10
+        level_cost_3 = -15
+        level_cost_4 = -20
+        level_cost_5 = -25
+        level_cost_6 = -30
+        level_cost_7 = -35
+        level_cost_8 = -40
+        level_cost_9 = -45
+        level_cost_10 = -50
+        chance = {
+			factor = 0
+		}
+	}
 }

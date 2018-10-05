@@ -578,4 +578,78 @@ adm_idea_modifiers = {
             has_dlc = "Cradle of Civilization"
         }
     }
+    
+    custom_idea_free_adm_policy = {
+        free_adm_policy = 1
+        level_cost_1 = 25
+        level_cost_2 = 75
+        level_cost_3 = 150
+        max_level = 3
+    }
+    
+    custom_idea_possible_adm_policy = {
+        possible_adm_policy = 1
+    }
+    
+    custom_idea_free_policy = {
+        free_policy = 1
+        level_cost_1 = 50
+        level_cost_2 = 100
+        level_cost_3 = 150
+        max_level = 3
+    }
+    
+    custom_idea_adm_advisor_cost = {
+        adm_advisor_cost = -0.05
+    }
+    
+    custom_idea_election_cycle = {
+        election_cycle = 1
+        level_cost_1 = 25
+		level_cost_2 = 50
+		level_cost_3 = 75
+		level_cost_4 = 100	
+		level_cost_5 = 125	
+		level_cost_6 = 150
+        max_level = 6
+        chance = {
+			factor = 0
+		}
+    }
+    
+    custom_idea_candidate_random_bonus = {
+        candidate_random_bonus = 1
+        level_cost_1 = 25
+		level_cost_2 = 50
+		level_cost_3 = 75
+		level_cost_4 = 100	
+		level_cost_5 = 125	
+		level_cost_6 = 150
+        max_level = 6
+        chance = {
+			factor = 0
+		}
+    }
+    
+    custom_idea_reelection_cost = {
+        reelection_cost = -0.05
+        chance = {
+			factor = 0
+		}
+    }
+    
+    custom_idea_reform_progress_growth = {
+        reform_progress_growth = 0.05
+    }
+    
+    custom_idea_min_autonomy_in_territories = {
+        min_autonomy_in_territories = -0.05
+    }
+    
+    custom_idea_monthly_support_heir_gain = {
+        monthly_support_heir_gain = 0.05
+        chance = {
+			factor = 0
+		}
+    }
 }

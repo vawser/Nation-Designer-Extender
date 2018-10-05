@@ -1110,6 +1110,26 @@ dip_idea_modifiers = {
         }
     }
 
+    custom_idea_free_dip_policy = {
+        free_dip_policy = 1
+        level_cost_1 = 25
+        level_cost_2 = 75
+        level_cost_3 = 150
+        max_level = 3
+    }
+    
+    custom_idea_possible_dip_policy = {
+        possible_dip_policy = 1
+    }
+    
+    custom_idea_dip_advisor_cost = {
+        dip_advisor_cost = -0.05
+    }
+    
+    custom_idea_power_projection_from_insults = {
+        power_projection_from_insults = 0.05
+    }
+    
     custom_idea_auto_explore_adjacent_to_colony = {
         auto_explore_adjacent_to_colony = yes
         max_level = 1

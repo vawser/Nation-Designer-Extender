@@ -1044,4 +1044,72 @@ negative_mil_idea_modifiers = {
             has_dlc = "Cradle of Civilization"
         }
     }
+    
+    custom_idea_leader_cost_neg = {
+        leader_cost = 0.05
+        level_cost_1 = -2
+        level_cost_2 = -4
+        level_cost_3 = -6
+        level_cost_4 = -8
+        level_cost_5 = -10
+        level_cost_6 = -12
+        level_cost_7 = -14
+        level_cost_8 = -16
+        level_cost_9 = -18
+        level_cost_10 = -20
+        chance = {
+            factor = 0
+        }
+    }
+    
+    custom_idea_free_mil_policy_neg = {
+        free_mil_policy = -1
+        level_cost_1 = -5
+        level_cost_2 = -10
+        level_cost_3 = -15
+        level_cost_4 = -20
+        level_cost_5 = -25
+        level_cost_6 = -30
+        level_cost_7 = -35
+        level_cost_8 = -40
+        level_cost_9 = -45
+        level_cost_10 = -50
+        chance = {
+			factor = 0
+		}
+    }
+    
+    custom_idea_possible_mil_policy_neg = {
+        possible_mil_policy = -1
+        level_cost_1 = -5
+        level_cost_2 = -10
+        level_cost_3 = -15
+        level_cost_4 = -20
+        level_cost_5 = -25
+        level_cost_6 = -30
+        level_cost_7 = -35
+        level_cost_8 = -40
+        level_cost_9 = -45
+        level_cost_10 = -50
+        chance = {
+			factor = 0
+		}
+    }
+    
+    custom_idea_mil_advisor_cost_neg = {
+		mil_advisor_cost = 0.05
+        level_cost_1 = -5
+        level_cost_2 = -10
+        level_cost_3 = -15
+        level_cost_4 = -20
+        level_cost_5 = -25
+        level_cost_6 = -30
+        level_cost_7 = -35
+        level_cost_8 = -40
+        level_cost_9 = -45
+        level_cost_10 = -50
+        chance = {
+			factor = 0
+		}
+	}
 }

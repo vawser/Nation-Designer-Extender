@@ -214,24 +214,41 @@
  mix_najd_gfx: "Najd" # NAJ
  mix_oman_gfx: "Oman" # OMA
  
+ # 1.25
+ mix_ulster_gfx: "Ulster" # ULS
+ mix_leinster_gfx: "Leinster" # LEI
+ mix_kildare_gfx: "Kildare" # KID
+ mix_tyrone_gfx: "Tyrone" # TYR
  
+ mix_desmond_gfx: "Desmond" # DMS
+ mix_connacht_gfx: "Connacht" # CNN
+ mix_munster_gfx: "Munster" # MNS
+ mix_sligo_gfx: "Sligo" # SLN
  
+ mix_meath_gfx: "Meath" # MTH
+ mix_cornwall_gfx: "Cornwall" # CRN
+ mix_normandy_gfx: "Normandy" # NRM
+ mix_northumberland_gfx: "Northumberland" # NOL
  
+ mix_ireland_gfx: "Ireland" # IRE
+ mix_wales_gfx: "Wales" # WLS
+ # SCO and BRI covered by old entries (disable 100 Years to use RB)
  
+ # 1.26
+ mix_gondwana_gfx: "Gondwana" # GDW
+ mix_mysore_gfx: "Mysore" # MYS
+ mix_mewar_gfx: "Mewar" # MER
+ mix_nepal_gfx: "Nepal" # NPL
+ # Orissa
  
+ mix_bahmanis_gfx: "Bahmanis" # BAH
+ mix_gujurat_gfx: "Gujurat" # GUJ
+ mix_jaunpur_gfx: "Jaunpur" # JNP
+ mix_malwa_gfx: "Malwa" # MLW
+ # Mughal
+ # Bengal
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+ mix_synthetics_gfx: "Synthetics" # SYN
  
  
  

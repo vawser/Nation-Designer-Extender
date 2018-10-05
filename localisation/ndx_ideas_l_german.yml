@@ -786,3 +786,115 @@
  custom_idea_reserves_organisation_neg: "Exposed Flanks"
  custom_idea_reserves_organisation_neg_desc: ""
  
+ # 1.25
+ custom_idea_innovativeness_gain: "Innovation"
+ custom_idea_innovativeness_gain_desc: ""
+ custom_idea_innovativeness_gain_neg: "Loss of Innovation"
+ custom_idea_innovativeness_gain_neg_desc: ""
+ 
+ custom_idea_own_coast_naval_combat_bonus: "Home Advantage"
+ custom_idea_own_coast_naval_combat_bonus_desc: ""
+ custom_idea_own_coast_naval_combat_bonus_neg: "Home Failure"
+ custom_idea_own_coast_naval_combat_bonus_neg_desc: ""
+ 
+ custom_idea_fabricate_claims_cost: "Easy Claims"
+ custom_idea_fabricate_claims_cost_desc: ""
+ custom_idea_fabricate_claims_cost_neg: "Difficult Claims"
+ custom_idea_fabricate_claims_cost_neg_desc: ""
+ 
+ custom_idea_justify_trade_conflict_cost: "Easy Trade Conflicts"
+ custom_idea_justify_trade_conflict_cost_desc: ""
+ custom_idea_justify_trade_conflict_cost_neg: "Difficult Trade Conflicts"
+ custom_idea_justify_trade_conflict_cost_neg_desc: ""
+ 
+ # 1.26
+ custom_idea_leader_cost: "Cheap Commanders"
+ custom_idea_leader_cost_desc: ""
+ custom_idea_leader_cost_neg: "Expensive Commanders"
+ custom_idea_leader_cost_neg_desc: ""
+ 
+ custom_idea_free_adm_policy: "Administrative Policies"
+ custom_idea_free_adm_policy_desc: ""
+ custom_idea_free_adm_policy_neg: "Administrative Failures"
+ custom_idea_free_adm_policy_neg_desc: ""
+ 
+ custom_idea_free_dip_policy: "Diplomatic Policies"
+ custom_idea_free_dip_policy_desc: ""
+ custom_idea_free_dip_policy_neg: "Diplomatic Failures"
+ custom_idea_free_dip_policy_neg_desc: ""
+ 
+ custom_idea_free_mil_policy: "Military Policies"
+ custom_idea_free_mil_policy_desc: ""
+ custom_idea_free_mil_policy_neg: "Military Failures"
+ custom_idea_free_mil_policy_neg_desc: ""
+ 
+ custom_idea_possible_adm_policy: "Administrative Opportunities"
+ custom_idea_possible_adm_policy_desc: ""
+ custom_idea_possible_adm_policy_neg: "Administrative Misses"
+ custom_idea_possible_adm_policy_neg_desc: ""
+ 
+ custom_idea_possible_dip_policy: "Diplomatic Opportunities"
+ custom_idea_possible_dip_policy_desc: ""
+ custom_idea_possible_dip_policy_neg: "Diplomatic Misses"
+ custom_idea_possible_dip_policy_neg_desc: ""
+ 
+ custom_idea_possible_mil_policy: "Military Opportunities"
+ custom_idea_possible_mil_policy_desc: ""
+ custom_idea_possible_mil_policy_neg: "Military Misses"
+ custom_idea_possible_mil_policy_neg_desc: ""
+ 
+ custom_idea_free_policy: "Numerous Policies"
+ custom_idea_free_policy_desc: ""
+ custom_idea_free_policy_neg: "Lackluster Policies"
+ custom_idea_free_policy_neg_desc: ""
+ 
+ custom_idea_adm_advisor_cost: "Cheap Administrators"
+ custom_idea_adm_advisor_cost_desc: ""
+ custom_idea_adm_advisor_cost_neg: "Expensive Administrators"
+ custom_idea_adm_advisor_cost_neg_desc: ""
+ 
+ custom_idea_dip_advisor_cost: "Cheap Diplomats"
+ custom_idea_dip_advisor_cost_desc: ""
+ custom_idea_dip_advisor_cost_neg: "Expensive Diplomats"
+ custom_idea_dip_advisor_cost_neg_desc: ""
+ 
+ custom_idea_mil_advisor_cost: "Cheap Officers"
+ custom_idea_mil_advisor_cost_desc: ""
+ custom_idea_mil_advisor_cost_neg: "Expensive Officers"
+ custom_idea_mil_advisor_cost_neg_desc: ""
+ 
+ custom_idea_election_cycle: "Uncommon Elections"
+ custom_idea_election_cycle_desc: ""
+ custom_idea_election_cycle_neg: "Common Elections"
+ custom_idea_election_cycle_neg_desc: ""
+ 
+ custom_idea_candidate_random_bonus: "Exceptional Candidates"
+ custom_idea_candidate_random_bonus_desc: ""
+ custom_idea_candidate_random_bonus_neg: "Poor Candidates"
+ custom_idea_candidate_random_bonus_neg_desc: ""
+ 
+ custom_idea_reelection_cost: "Valued Candidates"
+ custom_idea_reelection_cost_desc: ""
+ custom_idea_reelection_cost_neg: "Inept Candidates"
+ custom_idea_reelection_cost_neg_desc: ""
+ 
+ custom_idea_reform_progress_growth: "Governmental Impetus"
+ custom_idea_reform_progress_growth_desc: ""
+ custom_idea_reform_progress_growth_neg: "Governmental Apathy"
+ custom_idea_reform_progress_growth_neg_desc: ""
+ 
+ custom_idea_min_autonomy_in_territories: "Local Autonomy"
+ custom_idea_min_autonomy_in_territories_desc: ""
+ custom_idea_min_autonomy_in_territories_neg: "Centralized Autonomy"
+ custom_idea_min_autonomy_in_territories_neg_desc: ""
+ 
+ # 1.27
+ custom_idea_monthly_support_heir_gain: "Local Support"
+ custom_idea_monthly_support_heir_gain_desc: ""
+ custom_idea_monthly_support_heir_gain_neg: "Local Apathy"
+ custom_idea_monthly_support_heir_gain_neg_desc: ""
+ 
+ custom_idea_power_projection_from_insults: "Powerful Insults"
+ custom_idea_power_projection_from_insults_desc: ""
+ custom_idea_power_projection_from_insults_neg: "Weak Insults"
+ custom_idea_power_projection_from_insults_neg_desC: ""
