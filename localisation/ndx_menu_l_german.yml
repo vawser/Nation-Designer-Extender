@@ -1,0 +1,62 @@
+﻿l_german:
+ #-------------------
+ # Decisions
+ #-------------------
+ open_ndx_menu_title: "§B§!Allow NDX Configuration Actions"
+ open_ndx_menu_desc: "Activates the NDX configuration decisions. \n\nTag to other countries to use these to setup the AI."
+ 
+ remove_ndx_menu_title: "§B§!Remove NDX Configuration Actions"
+ remove_ndx_menu_desc: "Deactivates the NDX configuration decisions for this savegame."
+
+ unify_culture_title: "§G§!Unify Culture"
+ unify_culture_desc: ""
+ 
+ unify_religion_title: "§G§!Unify Religion"
+ unify_religion_desc: ""
+ 
+ go_protestant_title: "§G§!Convert to Protestant"
+ go_protestant_desc: ""
+ 
+ go_reformed_title: "§G§!Convert to Reformed"
+ go_reformed_desc: ""
+ 
+ go_sikhism_title: "§G§!Convert to Sikhism"
+ go_sikhism_desc: ""
+ 
+ add_self_to_empire_title: "§R§!HRE: Add [Root.GetName] to HRE"
+ add_self_to_empire_desc: ""
+ 
+ remove_self_from_empire_title: "§R§!HRE: Remove [Root.GetName] from HRE"
+ remove_self_from_empire_desc: ""
+ 
+ become_elector_title: "§R§!HRE: Become Elector"
+ become_elector_desc: ""
+ 
+ become_revolution_target_title: "§R§!RT: Become Revolution Target"
+ become_revolution_target_desc: ""
+ 
+ become_emperor_of_china_title: "§R§!EOC: Become the Emperor of China"
+ become_emperor_of_china_desc: ""
+ 
+ remove_empire_of_china_title: "§R§!EOC: Remove the Empire of China"
+ remove_empire_of_china_desc: ""
+ 
+ make_hre_inheritable_title: "§R§!HRE: Make Emperorship Inheritable"
+ make_hre_inheritable_desc: ""
+ 
+ allow_imperial_ban_title: "§R§!HRE: Allow the Imperial Ban CB"
+ allow_imperial_ban_desc: ""
+ 
+ disallow_internal_hre_wars_title: "§R§!HRE: Disallow Internal Wars"
+ disallow_internal_hre_wars_desc: ""
+ 
+ allow_female_emperor_title: "§R§!HRE: Allow a Female Emperor"
+ allow_female_emperor_desc: ""
+ 
+ remove_the_hre_title: "§R§!HRE: Dismantle the HRE"
+ remove_the_hre_desc: ""
+ 
+ add_government_reform_progress_title: "§G§!Add Government Reform Progress"
+ add_government_reform_progress_desc: ""
+ 
+ 

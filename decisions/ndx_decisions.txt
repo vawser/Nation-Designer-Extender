@@ -1,0 +1,389 @@
+country_decisions = {
+    open_ndx_menu = {
+		major = yes
+        
+		potential = {
+            ai = no
+			NOT = { has_global_flag = finished_ndx_menu }
+		}
+		allow = {
+			NOT = { has_global_flag = finished_ndx_menu }
+		}
+		effect = {
+            set_global_flag = allow_ndx_menu
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+    
+    remove_ndx_menu = {
+		major = yes
+        
+		potential = {
+            ai = no
+			has_global_flag = allow_ndx_menu
+		}
+		allow = {
+			has_global_flag = allow_ndx_menu
+		}
+		effect = {
+            clr_global_flag = allow_ndx_menu
+            set_global_flag = finished_ndx_menu
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+    
+    unify_culture = {
+		major = yes
+		potential = {
+			ai = no
+            has_global_flag = allow_ndx_menu
+            any_owned_province = {
+                NOT = { culture = ROOT }
+            }
+		}
+		allow = {
+			has_global_flag = allow_ndx_menu
+		}
+		effect = {
+            every_owned_province = {
+                change_culture = ROOT
+            }
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+    
+    unify_religion = {
+		major = yes
+		potential = {
+			ai = no
+            has_global_flag = allow_ndx_menu
+            any_owned_province = {
+                NOT = { religion = ROOT }
+            }
+		}
+		allow = {
+			has_global_flag = allow_ndx_menu
+		}
+		effect = {
+            every_owned_province = {
+                change_religion = ROOT
+            }
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+    
+    go_protestant = {
+		major = yes
+		potential = {
+			ai = no
+            has_global_flag = allow_ndx_menu
+            NOT = { religion = protestant }
+		}
+		allow = {
+			has_global_flag = allow_ndx_menu
+		}
+		effect = {
+            change_religion = protestant
+            every_owned_province = {
+                change_religion = protestant
+            }
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+    
+    go_reformed = {
+		major = yes
+		potential = {
+			ai = no
+            has_global_flag = allow_ndx_menu
+            NOT = { religion = reformed }
+		}
+		allow = {
+			has_global_flag = allow_ndx_menu
+		}
+		effect = {
+            change_religion = reformed
+            every_owned_province = {
+                change_religion = reformed
+            }
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+    
+    go_sikhism = {
+		major = yes
+		potential = {
+			ai = no
+            has_global_flag = allow_ndx_menu
+            NOT = { religion = sikhism }
+		}
+		allow = {
+			has_global_flag = allow_ndx_menu
+		}
+		effect = {
+            change_religion = sikhism
+            every_owned_province = {
+                change_religion = sikhism
+            }
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+    
+    add_self_to_empire = {
+		major = yes
+		potential = {
+			ai = no
+            has_global_flag = allow_ndx_menu
+            NOT = { is_part_of_hre = yes }
+            any_province = {
+                is_part_of_hre = yes
+            }
+		}
+		allow = {
+			has_global_flag = allow_ndx_menu
+		}
+		effect = {
+            set_in_empire = yes
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+    
+    remove_self_from_empire = {
+		major = yes
+		potential = {
+			ai = no
+            has_global_flag = allow_ndx_menu
+            is_part_of_hre = yes
+            any_province = {
+                is_part_of_hre = yes
+            }
+		}
+		allow = {
+			has_global_flag = allow_ndx_menu
+		}
+		effect = {
+            set_in_empire = no
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+    
+    become_elector = {
+		major = yes
+		potential = {
+			ai = no
+            has_global_flag = allow_ndx_menu
+            is_elector = no
+            any_province = {
+                is_part_of_hre = yes
+            }
+		}
+		allow = {
+			has_global_flag = allow_ndx_menu
+		}
+		effect = {
+            set_in_empire = yes
+            elector = ROOT
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+    
+    become_revolution_target = {
+		major = yes
+		potential = {
+			ai = no
+            has_global_flag = allow_ndx_menu
+            is_revolution_target = no
+		}
+		allow = {
+			has_global_flag = allow_ndx_menu
+		}
+		effect = {
+            set_revolution_target = ROOT
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+    
+    become_emperor_of_china = {
+		major = yes
+		potential = {
+			ai = no
+            has_global_flag = allow_ndx_menu
+            is_emperor_of_china = no
+		}
+		allow = {
+			has_global_flag = allow_ndx_menu
+		}
+		effect = {
+            set_emperor_of_china = ROOT
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+    
+    remove_empire_of_china = {
+		major = yes
+		potential = {
+			ai = no
+            has_global_flag = allow_ndx_menu
+            NOT = { has_global_flag = remove_empire_of_china }
+		}
+		allow = {
+			has_global_flag = allow_ndx_menu
+		}
+		effect = {
+            dismantle_empire_of_china = yes
+            hidden_effect = { set_global_flag = remove_empire_of_china }
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+    
+    make_hre_inheritable = {
+		major = yes
+		potential = {
+			ai = no
+            has_global_flag = allow_ndx_menu
+            NOT = { has_global_flag = make_hre_inheritable }
+            any_province = {
+                is_part_of_hre = yes
+            }
+		}
+		allow = {
+			has_global_flag = allow_ndx_menu
+		}
+		effect = {
+            hre_inheritable = yes
+            hidden_effect = { set_global_flag = make_hre_inheritable }
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+    
+    allow_imperial_ban = {
+		major = yes
+		potential = {
+			ai = no
+            has_global_flag = allow_ndx_menu
+            NOT = { has_global_flag = allow_imperial_ban }
+            any_province = {
+                is_part_of_hre = yes
+            }
+		}
+		allow = {
+			has_global_flag = allow_ndx_menu
+		}
+		effect = {
+            imperial_ban_allowed = yes
+            hidden_effect = { set_global_flag = allow_imperial_ban }
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+    
+    disallow_internal_hre_wars = {
+		major = yes
+		potential = {
+			ai = no
+            has_global_flag = allow_ndx_menu
+            NOT = { has_global_flag = disallow_internal_hre_wars }
+            any_province = {
+                is_part_of_hre = yes
+            }
+		}
+		allow = {
+			has_global_flag = allow_ndx_menu
+		}
+		effect = {
+            internal_hre_cb = yes
+            hidden_effect = { set_global_flag = disallow_internal_hre_wars }
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+    
+    allow_female_emperor = {
+		major = yes
+		potential = {
+			ai = no
+            has_global_flag = allow_ndx_menu
+            NOT = { has_global_flag = allow_female_emperor }
+            any_province = {
+                is_part_of_hre = yes
+            }
+		}
+		allow = {
+			has_global_flag = allow_ndx_menu
+		}
+		effect = {
+            set_allow_female_emperor = yes
+            hidden_effect = { set_global_flag = allow_female_emperor }
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+    
+    remove_the_hre = {
+		major = yes
+		potential = {
+			ai = no
+            has_global_flag = allow_ndx_menu
+            any_province = {
+                is_part_of_hre = yes
+            }
+		}
+		allow = {
+			has_global_flag = allow_ndx_menu
+		}
+		effect = {
+            dismantle_hre = yes
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+    
+    add_government_reform_progress = {
+		major = yes
+		potential = {
+			ai = no
+            has_global_flag = allow_ndx_menu
+		}
+		allow = {
+			has_global_flag = allow_ndx_menu
+		}
+		effect = {
+            change_government_reform_progress = 100
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}
